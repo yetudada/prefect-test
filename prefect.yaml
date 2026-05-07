@@ -4,12 +4,28 @@
 name: prefect-banking-pipeline
 prefect-version: 3.7.0
 
+# Cloud Managed runners pull the code fresh on each run from the public GitHub
+# repo. Switch `branch:` if you want to deploy from a feature branch.
+pull:
+  - prefect.deployments.steps.git_clone:
+      repository: https://github.com/yetudada/prefect-test
+      branch: main
+
 deployments:
   - name: banking-pipeline-daily
     entrypoint: flows/pipeline.py:banking_pipeline
     work_pool:
-      name: banking-process-pool
-      work_queue_name: default
+      name: banking-managed
+      job_variables:
+        # Installed in the managed runner before the flow starts.
+        pip_packages:
+          - prefect>=3.1.0
+          - dbt-core>=1.8.0
+          - dbt-duckdb>=1.8.0
+          - duckdb>=1.0.0
+          - faker>=30.0.0
+          - numpy>=1.26.0
+          - pandas>=2.2.0
     schedules:
       - cron: "0 6 * * *"
         timezone: UTC
@@ -22,3 +38,4 @@ deployments:
     description: |
       Daily synthetic banking pipeline. Generates customers/accounts/transactions,
       loads to DuckDB via dbt seed, and builds 20 dbt models on top.
+      DuckDB warehouse is ephemeral — it only exists for the run's container.
