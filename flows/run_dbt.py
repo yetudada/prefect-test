@@ -1,17 +1,20 @@
-"""dbt commands wrapped as Prefect tasks.
+"""dbt commands wrapped as Prefect tasks via the prefect-dbt integration.
 
-Kept simple on purpose: shells out to the dbt CLI via subprocess. If you
-want richer artefact rendering in the Cloud UI later, swap to the
-`prefect-dbt` integration (no behaviour change at the orchestration layer).
+`PrefectDbtRunner` invokes dbt programmatically (no subprocess), reads the
+generated `manifest.json`, and emits a Prefect Asset event for every model
+in the project. The 20-node dbt DAG therefore shows up as 20 lineage nodes
+under the run's Assets tab in the Cloud UI — and any failed model becomes a
+stale asset that downstream models can react to.
 """
 
 from __future__ import annotations
 
-import subprocess
 from pathlib import Path
 
 from prefect import flow, task
 from prefect.context import get_run_context
+from prefect_dbt import PrefectDbtRunner
+from prefect_dbt.core.settings import PrefectDbtSettings
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DBT_PROJECT_DIR = PROJECT_ROOT / "dbt_project"
@@ -22,8 +25,17 @@ DBT_PROJECT_DIR = PROJECT_ROOT / "dbt_project"
 _DEMO_FLAKY = True
 
 
+def _runner() -> PrefectDbtRunner:
+    return PrefectDbtRunner(
+        settings=PrefectDbtSettings(
+            project_dir=DBT_PROJECT_DIR,
+            profiles_dir=DBT_PROJECT_DIR,
+        )
+    )
+
+
 @task(retries=2, retry_delay_seconds=10)
-def dbt_command(args: list[str], project_dir: Path = DBT_PROJECT_DIR) -> None:
+def dbt_command(args: list[str]) -> None:
     """Task-level retries kick in on transient subprocess failures (e.g. a
     network blip while `dbt deps` fetches packages)."""
     if _DEMO_FLAKY and args[:1] == ["deps"]:
@@ -34,22 +46,8 @@ def dbt_command(args: list[str], project_dir: Path = DBT_PROJECT_DIR) -> None:
                 "(DEMO_FLAKY=True). The retry will succeed."
             )
 
-    cmd = [
-        "dbt",
-        *args,
-        "--project-dir",
-        str(project_dir),
-        "--profiles-dir",
-        str(project_dir),
-    ]
-    print(f"$ {' '.join(cmd)}")
-    result = subprocess.run(cmd, check=False, capture_output=True, text=True)
-    if result.stdout:
-        print(result.stdout)
-    if result.returncode != 0:
-        if result.stderr:
-            print(result.stderr)
-        raise RuntimeError(f"dbt {' '.join(args)} failed (exit {result.returncode})")
+    print(f"$ dbt {' '.join(args)}")
+    _runner().invoke(args)
 
 
 @flow(name="run-dbt", log_prints=True)

@@ -5,6 +5,7 @@ description = "Synthetic retail banking pipeline orchestrated with Prefect Cloud
 requires-python = ">=3.11,<3.14"
 dependencies = [
     "prefect>=3.1.0",
+    "prefect-dbt>=0.7.0",
     "dbt-core>=1.8.0",
     "dbt-duckdb>=1.8.0",
     "duckdb>=1.0.0",

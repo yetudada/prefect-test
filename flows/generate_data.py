@@ -13,7 +13,8 @@ from datetime import timedelta
 from pathlib import Path
 
 import pandas as pd
-from prefect import flow, task
+from prefect import flow
+from prefect.assets import Asset, materialize
 from prefect.tasks import task_input_hash
 
 from data_generation import synth
@@ -27,6 +28,18 @@ COMMON_TASK_KWARGS = dict(
 )
 
 
+def _seed_asset(name: str) -> Asset:
+    return Asset(key=f"file://dbt_project/seeds/{name}.csv")
+
+
+CUSTOMERS_ASSET = _seed_asset("customers")
+BRANCHES_ASSET = _seed_asset("branches")
+PRODUCTS_ASSET = _seed_asset("products")
+ACCOUNTS_ASSET = _seed_asset("accounts")
+MERCHANTS_ASSET = _seed_asset("merchants")
+TRANSACTIONS_ASSET = _seed_asset("transactions")
+
+
 def _write(df: pd.DataFrame, name: str) -> str:
     synth.SEEDS_DIR.mkdir(parents=True, exist_ok=True)
     path = synth.SEEDS_DIR / f"{name}.csv"
@@ -35,24 +48,24 @@ def _write(df: pd.DataFrame, name: str) -> str:
     return str(path)
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(CUSTOMERS_ASSET, **COMMON_TASK_KWARGS)
 def generate_customers(seed: int, n: int = 1000) -> str:
     """Second run with the same seed will hit Prefect's result cache —
     look for a 'Cached' badge on this task in the Cloud UI."""
     return _write(synth.generate_customers(seed=seed, n=n), "customers")
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(BRANCHES_ASSET, **COMMON_TASK_KWARGS)
 def generate_branches(seed: int, n: int = 20) -> str:
     return _write(synth.generate_branches(seed=seed, n=n), "branches")
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(PRODUCTS_ASSET, **COMMON_TASK_KWARGS)
 def generate_products() -> str:
     return _write(synth.generate_products(), "products")
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(ACCOUNTS_ASSET, **COMMON_TASK_KWARGS)
 def generate_accounts(seed: int, customers_path: str, branches_path: str, products_path: str) -> str:
     customers = pd.read_csv(customers_path, parse_dates=["signup_date", "date_of_birth"])
     branches = pd.read_csv(branches_path, parse_dates=["opened_date"])
@@ -61,12 +74,12 @@ def generate_accounts(seed: int, customers_path: str, branches_path: str, produc
     return _write(df, "accounts")
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(MERCHANTS_ASSET, **COMMON_TASK_KWARGS)
 def generate_merchants(seed: int, n: int = 100) -> str:
     return _write(synth.generate_merchants(seed=seed, n=n), "merchants")
 
 
-@task(**COMMON_TASK_KWARGS)
+@materialize(TRANSACTIONS_ASSET, **COMMON_TASK_KWARGS)
 def generate_transactions(
     seed: int,
     accounts_path: str,

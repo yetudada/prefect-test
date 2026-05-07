@@ -727,6 +727,15 @@ wheels = [
 ]
 
 [[package]]
+name = "graphql-core"
+version = "3.2.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/68/c5/36aa96205c3ecbb3d34c7c24189e4553c7ca2ebc7e1dd07432339b980272/graphql_core-3.2.8.tar.gz", hash = "sha256:015457da5d996c924ddf57a43f4e959b0b94fb695b85ed4c29446e508ed65cf3", size = 513181, upload-time = "2026-03-05T19:55:37.332Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/86/41/cb887d9afc5dabd78feefe6ccbaf83ff423c206a7a1b7aeeac05120b2125/graphql_core-3.2.8-py3-none-any.whl", hash = "sha256:cbee07bee1b3ed5e531723685369039f32ff815ef60166686e0162f540f1520c", size = 207349, upload-time = "2026-03-05T19:55:35.911Z" },
+]
+
+[[package]]
 name = "graphviz"
 version = "0.21"
 source = { registry = "https://pypi.org/simple" }
@@ -1517,6 +1526,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "prefect" },
+    { name = "prefect-dbt" },
 ]
 
 [package.metadata]
@@ -1528,6 +1538,34 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.26.0" },
     { name = "pandas", specifier = ">=2.2.0" },
     { name = "prefect", specifier = ">=3.1.0" },
+    { name = "prefect-dbt", specifier = ">=0.7.0" },
+]
+
+[[package]]
+name = "prefect-dbt"
+version = "0.7.24"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "dbt-core" },
+    { name = "prefect" },
+    { name = "prefect-shell" },
+    { name = "sgqlc" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/aa/a0/e435becf9cbe736a51bfbb3540b474c9e7e2665ceea01d4d5e5a4ca46c35/prefect_dbt-0.7.24.tar.gz", hash = "sha256:3cb560ec0260f19823e4bd9263bd0dae236308686686165d29f63f93787759de", size = 228688, upload-time = "2026-04-30T16:49:59.804Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8d/11/0cbc3317cf8034f97e0bb4f2b2c52e383224313d26bc8e632f9304fa2b03/prefect_dbt-0.7.24-py3-none-any.whl", hash = "sha256:669b84556613d1b7f80449c5343fb2a74e292e44547d4164cca404119998e424", size = 118780, upload-time = "2026-04-30T16:49:57.977Z" },
+]
+
+[[package]]
+name = "prefect-shell"
+version = "0.3.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "prefect" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/81/5c/b9f3d71538df86317caaad6005e19df31846aac1a2aac83befe401aeb2a7/prefect_shell-0.3.5.tar.gz", hash = "sha256:4eaeba6d2845a3c2c6765f8d77ff5335f6032223bf210db419690ce8c0753324", size = 17915, upload-time = "2026-03-10T16:34:29.507Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/35/94/e6355d98d26d0a50760e28a5b76452fa525ee000e0decedf42a68a2df7ae/prefect_shell-0.3.5-py3-none-any.whl", hash = "sha256:04fd8b90970ec3820efa2aba9f65294e36c5966b440c171e03fc7680bfc2b8ac", size = 11973, upload-time = "2026-03-10T16:34:27.624Z" },
 ]
 
 [[package]]
@@ -2150,6 +2188,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/72/d1/d3159231aec234a59dd7d601e9dd9fe96f3afff15efd33c1070019b26132/semver-3.0.4.tar.gz", hash = "sha256:afc7d8c584a5ed0a11033af086e8af226a9c0b206f313e0301f8dd7b6b589602", size = 269730, upload-time = "2025-01-24T13:19:27.617Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a6/24/4d91e05817e92e3a61c8a21e08fd0f390f5301f1c448b137c57c4bc6e543/semver-3.0.4-py3-none-any.whl", hash = "sha256:9c824d87ba7f7ab4a1890799cec8596f15c1241cb473404ea1cb0c55e4b04746", size = 17912, upload-time = "2025-01-24T13:19:24.949Z" },
+]
+
+[[package]]
+name = "sgqlc"
+version = "18"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "graphql-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/13/60/3b8c93b3d5df873bd13bc8fe0a4021d5f7442ca7ee6b98c5152dd55e18c7/sgqlc-18.tar.gz", hash = "sha256:a09f76fb69a2760523144f8d3acbf06a1b3710f63bf87fbac142d3538b1d639b", size = 245818, upload-time = "2026-02-06T19:56:23.957Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/da/96/8a5b972de8ede610aa088360927411b05c50ebcd669e52b0a3bfd1ed3ed9/sgqlc-18-py3-none-any.whl", hash = "sha256:7af53b5c1aab4602a98a36d6d32bd641e33f602b9b72468885f2505c59c536af", size = 86121, upload-time = "2026-02-06T19:56:22.07Z" },
 ]
 
 [[package]]
