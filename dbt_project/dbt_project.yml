@@ -1,0 +1,67 @@
+name: banking
+version: "1.0.0"
+config-version: 2
+
+profile: banking
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  banking:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+    analytics:
+      +materialized: table
+      +schema: analytics
+
+seeds:
+  banking:
+    +schema: raw
+    customers:
+      +column_types:
+        customer_id: VARCHAR
+        date_of_birth: DATE
+        signup_date: DATE
+        postal_code: VARCHAR
+    branches:
+      +column_types:
+        branch_id: VARCHAR
+        opened_date: DATE
+    products:
+      +column_types:
+        product_id: VARCHAR
+    accounts:
+      +column_types:
+        account_id: VARCHAR
+        customer_id: VARCHAR
+        product_id: VARCHAR
+        branch_id: VARCHAR
+        opened_date: DATE
+        credit_limit: INTEGER
+    merchants:
+      +column_types:
+        merchant_id: VARCHAR
+        mcc_code: INTEGER
+    transactions:
+      +column_types:
+        transaction_id: VARCHAR
+        account_id: VARCHAR
+        merchant_id: VARCHAR
+        transaction_ts: TIMESTAMP
+        amount: DECIMAL(12, 2)

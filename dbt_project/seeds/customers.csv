@@ -1,0 +1,1001 @@
+customer_id,first_name,last_name,date_of_birth,email,street_address,city,state,postal_code,signup_date,segment,kyc_status
+c00001,Danielle,Garcia,1950-02-02,danielle.garcia1@example.com,71040 Green Cove,Newark,NJ,89031,2018-10-13,Mass Affluent,Approved
+c00002,Angel,Jennings,1985-03-29,angel.jennings2@example.com,2621 Matthew Ridges,Phoenix,AZ,15585,2019-08-19,Mass,Approved
+c00003,Joshua,Stephens,1955-05-19,joshua.stephens3@example.com,062 Moore Courts Suite 336,Dallas,TX,45776,2017-07-26,Affluent,Approved
+c00004,Jeffrey,Levine,1960-10-12,jeffrey.levine4@example.com,443 Brandon Ports Suite 205,Minneapolis,MN,51243,2017-04-28,Mass,Approved
+c00005,Jill,Howard,1944-06-29,jill.howard5@example.com,1497 Collin Ford,Chicago,IL,81809,2019-05-14,Mass,Approved
+c00006,Erica,Sanders,2004-11-05,erica.sanders6@example.com,417 Kyle Locks,Portland,OR,21612,2022-01-13,Mass Affluent,Approved
+c00007,Patricia,Lopez,2000-03-02,patricia.lopez7@example.com,4186 Nathan Light Suite 270,Newark,NJ,49065,2020-03-18,Mass,Approved
+c00008,Christopher,Martinez,2002-05-02,christopher.martinez8@example.com,7434 Edward Square Apt. 158,Dallas,TX,23709,2021-08-08,Mass,Approved
+c00009,Robert,Charles,1982-11-30,robert.charles9@example.com,380 Cardenas Manor Suite 937,Charlotte,NC,80887,2019-12-22,Mass,Approved
+c00010,Anthony,Gibson,1969-05-25,anthony.gibson10@example.com,60898 David Throughway Suite 223,Philadelphia,PA,66905,2018-07-05,Mass,Approved
+c00011,Jeffery,Bates,1974-01-18,jeffery.bates11@example.com,06163 Mary Green,Chicago,IL,54706,2022-01-18,Mass,Approved
+c00012,William,May,2006-06-18,william.may12@example.com,116 Arnold Walks Suite 870,Portland,OR,45363,2020-12-16,Mass,Approved
+c00013,Anthony,Harper,2004-05-17,anthony.harper13@example.com,62299 Sara Port Apt. 485,Houston,TX,23785,2024-08-20,Mass,Approved
+c00014,James,Smith,1985-12-31,james.smith14@example.com,6799 Johnson Harbor Suite 299,Houston,TX,92966,2019-02-11,Mass,Approved
+c00015,Debra,Buchanan,1993-10-13,debra.buchanan15@example.com,65307 Prince Brooks Suite 444,Dallas,TX,68289,2021-01-31,Mass,Approved
+c00016,Amy,Sanchez,1962-01-08,amy.sanchez16@example.com,132 Mccann Mills Suite 469,Phoenix,AZ,38724,2021-04-29,Mass,Approved
+c00017,Jeffrey,Martinez,1968-08-28,jeffrey.martinez17@example.com,73678 Nicholson Passage,Detroit,MI,47254,2020-09-29,Mass,Pending
+c00018,Bridget,Cunningham,1950-06-30,bridget.cunningham18@example.com,48628 Glenn Wells,Boston,MA,75356,2023-04-12,Mass,Approved
+c00019,Lisa,Jones,1965-12-12,lisa.jones19@example.com,30705 Joshua View,Seattle,WA,74760,2020-03-21,Mass,Approved
+c00020,Adam,Hubbard,1991-08-25,adam.hubbard20@example.com,610 Nathan Ranch Suite 279,Chicago,IL,51498,2019-01-17,Mass,Approved
+c00021,Linda,Clark,1972-07-18,linda.clark21@example.com,2414 Paul Estates Apt. 333,Chicago,IL,37261,2022-03-16,Mass,Approved
+c00022,Helen,Robinson,1998-02-07,helen.robinson22@example.com,680 Thomas Curve Apt. 903,Atlanta,GA,69395,2023-12-15,Mass,Approved
+c00023,Matthew,Kane,1960-10-18,matthew.kane23@example.com,446 York Mount Suite 374,Newark,NJ,69240,2021-11-28,Mass,Approved
+c00024,Eric,Murphy,1988-06-18,eric.murphy24@example.com,108 Hoffman Ranch Suite 417,Portland,OR,63972,2023-06-01,Mass,Approved
+c00025,Susan,Hernandez,1995-02-21,susan.hernandez25@example.com,4544 Lopez Path,Phoenix,AZ,16556,2022-01-05,Mass,Approved
+c00026,Matthew,Lester,2002-07-20,matthew.lester26@example.com,96520 Bright Green,Houston,TX,52550,2019-12-28,Mass,Approved
+c00027,Christopher,Smith,1978-08-03,christopher.smith27@example.com,6099 Matthew Station Apt. 875,Chicago,IL,65252,2024-02-04,Mass Affluent,Approved
+c00028,Colin,Garrison,2006-02-26,colin.garrison28@example.com,82417 Joyce Stream Apt. 513,San Francisco,CA,95505,2019-01-10,Mass,Approved
+c00029,Melanie,Thomas,1978-03-30,melanie.thomas29@example.com,46554 Ford Crest Suite 099,Detroit,MI,57300,2023-03-17,Mass,Approved
+c00030,Cassandra,Anderson,1949-06-19,cassandra.anderson30@example.com,3816 Gutierrez Ways,Detroit,MI,40844,2017-11-06,Mass,Approved
+c00031,Lindsay,King,1956-11-10,lindsay.king31@example.com,35697 Leslie Stravenue,Detroit,MI,60021,2019-02-23,Mass,Approved
+c00032,Jessica,Thompson,1954-03-05,jessica.thompson32@example.com,75250 Shannon Fords,Atlanta,GA,25951,2022-10-28,Mass,Approved
+c00033,Amanda,Guerrero,1984-04-28,amanda.guerrero33@example.com,271 Christina Roads,Philadelphia,PA,18162,2020-07-01,Mass,Approved
+c00034,Teresa,Johnson,2003-01-22,teresa.johnson34@example.com,6760 Amanda Street Suite 058,Chicago,IL,71028,2024-02-12,Mass,Approved
+c00035,Nicholas,Smith,1997-12-14,nicholas.smith35@example.com,03354 Curtis Parkway,Seattle,WA,98756,2024-03-15,Mass,Rejected
+c00036,Andrea,Tyler,1946-08-20,andrea.tyler36@example.com,10447 Hamilton Spur Apt. 575,Philadelphia,PA,86140,2017-05-11,Mass Affluent,Approved
+c00037,Maria,Young,1989-08-14,maria.young37@example.com,60332 Jessica Radial,Portland,OR,62529,2018-08-02,Affluent,Approved
+c00038,Christine,Morris,1953-04-19,christine.morris38@example.com,50648 Brittney Causeway,Seattle,WA,13622,2023-10-08,Mass,Approved
+c00039,Michelle,Thompson,1958-08-08,michelle.thompson39@example.com,001 Wallace Crossing,Miami,FL,98917,2022-09-28,Mass,Approved
+c00040,Barbara,Williams,1986-02-26,barbara.williams40@example.com,2304 Stanley Shore Suite 992,Phoenix,AZ,50466,2023-06-03,Mass Affluent,Approved
+c00041,Janet,Harmon,1981-05-06,janet.harmon41@example.com,89141 Tyler Rest Apt. 483,Philadelphia,PA,36069,2021-11-04,Mass,Approved
+c00042,Brandon,Fox,1999-10-03,brandon.fox42@example.com,642 Amy Fords Suite 530,Phoenix,AZ,90323,2022-09-03,Mass Affluent,Pending
+c00043,Jeremy,Reese,1953-02-21,jeremy.reese43@example.com,119 Hernandez Course,Dallas,TX,77176,2022-05-19,Mass,Approved
+c00044,Keith,Alvarez,1992-02-22,keith.alvarez44@example.com,143 Hinton Hill,Miami,FL,77465,2020-10-08,Affluent,Approved
+c00045,Christopher,Strickland,1989-08-07,christopher.strickland45@example.com,0120 Ward Springs Suite 611,Philadelphia,PA,34997,2023-06-28,Affluent,Approved
+c00046,Jesse,Palmer,1978-05-08,jesse.palmer46@example.com,22557 Johns Course,Seattle,WA,99262,2017-12-11,Mass,Pending
+c00047,Craig,Rodriguez,1972-12-11,craig.rodriguez47@example.com,2166 Nelson Lights Suite 621,Chicago,IL,50758,2019-03-09,Mass,Approved
+c00048,Joshua,Gordon,1999-06-22,joshua.gordon48@example.com,021 Pruitt Orchard,Los Angeles,CA,57827,2018-12-03,Mass,Approved
+c00049,Cynthia,Dougherty,1962-12-27,cynthia.dougherty49@example.com,96590 Timothy Oval Apt. 670,Phoenix,AZ,77586,2023-08-25,Mass,Approved
+c00050,Michael,Williams,2005-06-04,michael.williams50@example.com,5089 Tiffany Skyway,Houston,TX,69399,2019-05-05,Mass,Approved
+c00051,Mitchell,Logan,1941-05-22,mitchell.logan51@example.com,891 Stanley Gateway Suite 562,Dallas,TX,25505,2018-04-26,Affluent,Approved
+c00052,Jason,Camacho,2004-01-28,jason.camacho52@example.com,28772 Karen Islands,Boston,MA,37223,2023-08-08,Mass,Approved
+c00053,Joseph,Boyd,2005-10-08,joseph.boyd53@example.com,4083 Powell Freeway,Miami,FL,42506,2018-12-30,Mass,Approved
+c00054,Sharon,Ellis,1948-04-28,sharon.ellis54@example.com,7971 West Crest,Minneapolis,MN,95278,2022-02-21,Mass Affluent,Approved
+c00055,Deborah,Maynard,2008-04-26,deborah.maynard55@example.com,016 Johnson Plaza Apt. 199,Chicago,IL,74305,2018-09-15,Mass,Approved
+c00056,Chelsea,Brown,1972-11-29,chelsea.brown56@example.com,837 Cox Center Apt. 758,Newark,NJ,42970,2021-03-06,Mass,Approved
+c00057,George,Mendoza,1956-11-04,george.mendoza57@example.com,571 Katherine Forges Apt. 554,Detroit,MI,76125,2018-08-03,Affluent,Approved
+c00058,Jessica,Morales,1981-06-12,jessica.morales58@example.com,102 Taylor Stravenue Suite 149,Newark,NJ,76465,2023-10-28,Mass,Approved
+c00059,Frank,Parks,1954-04-03,frank.parks59@example.com,16373 Rodriguez Mall,Dallas,TX,45479,2021-11-21,Mass,Approved
+c00060,Noah,Henry,2002-07-29,noah.henry60@example.com,917 Barrett Parkways,Houston,TX,46282,2022-10-25,Mass,Approved
+c00061,Veronica,Browning,1977-11-20,veronica.browning61@example.com,0808 Roberson Orchard,Portland,OR,90486,2023-01-06,Affluent,Approved
+c00062,Danielle,Jones,1993-01-30,danielle.jones62@example.com,922 Paul Rapid,Phoenix,AZ,60563,2022-07-15,Mass,Approved
+c00063,Angela,Miller,1966-03-26,angela.miller63@example.com,669 Joshua Junctions Suite 722,Atlanta,GA,23456,2021-12-11,Mass,Approved
+c00064,Gabrielle,Franklin,1976-08-20,gabrielle.franklin64@example.com,848 Joseph Plaza Apt. 339,Los Angeles,CA,74780,2023-12-26,Mass,Approved
+c00065,Megan,Jones,1964-10-10,megan.jones65@example.com,522 Page Trace Suite 879,Minneapolis,MN,63061,2019-05-08,Mass,Approved
+c00066,Kimberly,Hill,1958-02-18,kimberly.hill66@example.com,846 Alexandra Burg Suite 200,Miami,FL,55804,2020-08-08,Affluent,Approved
+c00067,Jeremy,Schultz,1975-03-21,jeremy.schultz67@example.com,2442 Hannah Hill,Portland,OR,75259,2018-05-16,Mass,Approved
+c00068,Antonio,Kelley,1974-02-28,antonio.kelley68@example.com,057 Christina Spring,Miami,FL,91637,2019-05-14,Affluent,Approved
+c00069,Leslie,Nguyen,1947-01-20,leslie.nguyen69@example.com,863 Schwartz Causeway,Boston,MA,39739,2023-10-23,Mass,Approved
+c00070,Joseph,Vang,2007-01-29,joseph.vang70@example.com,6580 Julia Flats Suite 359,Chicago,IL,47737,2024-06-10,Mass,Approved
+c00071,Jason,Schmidt,1972-04-09,jason.schmidt71@example.com,347 Tonya Club,Phoenix,AZ,27054,2021-08-15,Mass Affluent,Approved
+c00072,Sherri,Chavez,1997-06-13,sherri.chavez72@example.com,81606 Hawkins Curve,New York,NY,68236,2021-02-26,Mass,Pending
+c00073,Nancy,Jacobs,2002-07-10,nancy.jacobs73@example.com,405 Mckinney Drives,Minneapolis,MN,46244,2023-01-30,Mass,Approved
+c00074,Leonard,Garcia,1965-07-22,leonard.garcia74@example.com,59094 Tyler Plaza,Philadelphia,PA,40812,2018-09-30,Mass Affluent,Approved
+c00075,Diana,Miles,1968-06-29,diana.miles75@example.com,58328 Kristie Estate Suite 886,Dallas,TX,72687,2020-05-08,Mass,Approved
+c00076,Randall,Farrell,1978-08-07,randall.farrell76@example.com,3355 Carter Terrace,Chicago,IL,46734,2019-01-08,Mass,Approved
+c00077,Robin,Curtis,1955-05-24,robin.curtis77@example.com,015 Allen Row Apt. 056,Charlotte,NC,51793,2024-02-17,Affluent,Approved
+c00078,Stephen,Mack,1950-04-09,stephen.mack78@example.com,4840 Robertson Pass,Atlanta,GA,49604,2018-06-26,Mass,Approved
+c00079,Joseph,Le,1958-01-29,joseph.le79@example.com,0435 Stacy Expressway Apt. 133,Detroit,MI,33268,2023-05-10,Mass,Approved
+c00080,John,Lewis,2003-11-29,john.lewis80@example.com,38612 Stephen Isle Apt. 110,Phoenix,AZ,21322,2021-06-02,Mass,Approved
+c00081,Anna,Hayes,1979-09-24,anna.hayes81@example.com,8193 Russell Mission,Portland,OR,84451,2021-06-28,Mass,Approved
+c00082,Jose,Perez,1968-09-28,jose.perez82@example.com,5061 Darlene River Apt. 901,Minneapolis,MN,18255,2018-06-10,Mass,Approved
+c00083,Brenda,Morgan,1950-09-17,brenda.morgan83@example.com,144 Juan Mill Suite 607,Newark,NJ,39239,2022-10-15,Mass,Approved
+c00084,Rachael,Chavez,1962-10-11,rachael.chavez84@example.com,326 Choi Divide,Los Angeles,CA,70074,2023-01-29,Mass,Approved
+c00085,Reginald,Perry,1966-03-06,reginald.perry85@example.com,508 David Avenue Suite 881,Houston,TX,21816,2022-04-15,Mass,Approved
+c00086,Jeffrey,Davis,1997-01-06,jeffrey.davis86@example.com,53682 Jack Ridges Suite 312,Phoenix,AZ,68996,2022-02-12,Mass,Approved
+c00087,Whitney,Simmons,1974-04-20,whitney.simmons87@example.com,781 Powers Glen,Newark,NJ,75975,2023-07-20,Mass,Approved
+c00088,William,Ortega,1984-11-10,william.ortega88@example.com,97552 Craig River,Charlotte,NC,69661,2023-08-05,Mass,Approved
+c00089,Christopher,Brooks,1986-12-01,christopher.brooks89@example.com,57759 Steele Drives,Dallas,TX,37452,2023-02-25,Mass Affluent,Approved
+c00090,Brandon,Hernandez,1957-11-05,brandon.hernandez90@example.com,6205 Kristen Station Suite 452,Seattle,WA,11778,2021-04-06,Mass,Approved
+c00091,Daniel,Leblanc,1996-03-19,daniel.leblanc91@example.com,7754 Arnold Extensions Apt. 428,Detroit,MI,89861,2022-04-04,Mass,Approved
+c00092,Courtney,Jones,2006-01-26,courtney.jones92@example.com,1108 Lisa Prairie,San Francisco,CA,39389,2021-11-13,Mass Affluent,Approved
+c00093,Laura,Decker,1983-12-25,laura.decker93@example.com,308 Stephens Plains Suite 256,Portland,OR,82450,2019-04-03,Mass,Approved
+c00094,Robert,Davis,1973-09-15,robert.davis94@example.com,427 Randy Parkway,Miami,FL,27802,2023-01-28,Mass,Pending
+c00095,Bryan,Davis,1951-10-15,bryan.davis95@example.com,392 Sean Fall,San Francisco,CA,24616,2017-09-23,Mass Affluent,Approved
+c00096,Patrick,Rodgers,1994-05-28,patrick.rodgers96@example.com,750 Kathleen Fort,Atlanta,GA,80033,2018-12-28,Mass,Approved
+c00097,Wendy,Cain,1951-11-10,wendy.cain97@example.com,5303 Hughes Motorway,Charlotte,NC,94575,2023-08-09,Mass,Approved
+c00098,Allison,Hawkins,1989-04-30,allison.hawkins98@example.com,51844 Nicholas Lane,Phoenix,AZ,87456,2022-06-29,Mass,Approved
+c00099,Tasha,Willis,1973-07-21,tasha.willis99@example.com,184 Kaufman Fork Suite 557,Houston,TX,77612,2023-07-15,Mass,Approved
+c00100,Michelle,Hoffman,2002-09-12,michelle.hoffman100@example.com,082 Martin Club Suite 322,Boston,MA,32201,2022-10-27,Mass,Approved
+c00101,Alexander,Rivera,1977-03-19,alexander.rivera101@example.com,9136 Cortez Orchard,San Francisco,CA,92188,2022-01-29,Mass Affluent,Pending
+c00102,Jennifer,Martinez,1983-12-28,jennifer.martinez102@example.com,3926 John Crossroad Apt. 280,Boston,MA,70106,2023-12-15,Mass,Approved
+c00103,Erin,Gomez,1944-05-04,erin.gomez103@example.com,24286 Natalie Stream,Portland,OR,25494,2024-11-19,Mass Affluent,Pending
+c00104,Amanda,Ortega,1942-08-25,amanda.ortega104@example.com,37977 Jeffrey Loop Apt. 929,New York,NY,21642,2021-06-29,Affluent,Approved
+c00105,Joseph,Christensen,1997-12-03,joseph.christensen105@example.com,57991 Nicholas Curve Apt. 038,Houston,TX,88404,2019-05-26,Mass,Approved
+c00106,Danielle,Parrish,2004-08-14,danielle.parrish106@example.com,91279 Natalie Place Apt. 172,Houston,TX,34763,2022-07-31,Mass Affluent,Approved
+c00107,Daniel,Griffith,1985-10-14,daniel.griffith107@example.com,686 Golden Square,Houston,TX,78930,2018-02-14,Mass Affluent,Approved
+c00108,Ryan,Schmitt,1992-04-27,ryan.schmitt108@example.com,76599 Ronald Glens Suite 314,Phoenix,AZ,22478,2022-01-18,Affluent,Approved
+c00109,Shawn,Burke,1968-05-22,shawn.burke109@example.com,3009 April Lane Apt. 565,Minneapolis,MN,35248,2017-10-19,Mass,Approved
+c00110,Stephanie,Bell,1997-08-22,stephanie.bell110@example.com,69448 Cunningham Ridge,Houston,TX,35516,2023-02-11,Mass,Pending
+c00111,Nancy,Lane,1956-02-01,nancy.lane111@example.com,636 White Points Suite 449,Miami,FL,35299,2020-09-09,Mass,Approved
+c00112,Jose,Lewis,1988-06-07,jose.lewis112@example.com,621 Sean Squares Apt. 138,Houston,TX,70726,2018-11-25,Mass,Approved
+c00113,Vincent,Douglas,1940-12-20,vincent.douglas113@example.com,8902 Oconnell Avenue Apt. 279,Chicago,IL,92295,2024-07-12,Mass,Approved
+c00114,Guy,Walker,1974-09-26,guy.walker114@example.com,14351 Jenny Locks Suite 902,Chicago,IL,91929,2017-07-26,Mass,Approved
+c00115,Rita,Rodriguez,1965-09-22,rita.rodriguez115@example.com,0384 Arthur Rapid Apt. 920,Chicago,IL,76739,2022-01-31,Mass,Approved
+c00116,Monica,Bruce,1982-05-12,monica.bruce116@example.com,02146 Caldwell Lodge Apt. 801,Detroit,MI,28227,2021-01-08,Affluent,Approved
+c00117,Kenneth,Richardson,1985-09-08,kenneth.richardson117@example.com,489 Bailey Via,Newark,NJ,96452,2019-12-23,Mass,Approved
+c00118,Danielle,Farmer,1982-04-09,danielle.farmer118@example.com,93769 Jose Lodge Apt. 818,Philadelphia,PA,58787,2019-11-11,Mass,Approved
+c00119,Chelsea,Andrews,1973-03-16,chelsea.andrews119@example.com,1848 Benson Lane Suite 357,Charlotte,NC,59137,2024-10-23,Mass,Approved
+c00120,Eric,Aguirre,1973-07-09,eric.aguirre120@example.com,071 Jones Roads Apt. 356,Boston,MA,73125,2018-01-25,Mass,Approved
+c00121,Kathryn,Bruce,1940-10-18,kathryn.bruce121@example.com,804 Justin Locks Suite 182,Chicago,IL,79218,2020-01-07,Mass,Approved
+c00122,Amber,Villegas,1977-11-10,amber.villegas122@example.com,5394 Stacey Springs Apt. 733,Houston,TX,95763,2017-01-06,Mass,Approved
+c00123,Kimberly,Cardenas,1941-02-25,kimberly.cardenas123@example.com,3333 Moore Coves,Houston,TX,62414,2021-03-26,Mass,Approved
+c00124,Alyssa,Austin,1976-05-07,alyssa.austin124@example.com,79080 Watson Island,Chicago,IL,64905,2020-02-05,Mass,Approved
+c00125,Aaron,Day,1959-01-11,aaron.day125@example.com,472 Sanders Terrace Apt. 086,Portland,OR,77097,2021-06-23,Mass,Approved
+c00126,Mario,Johnson,2006-10-25,mario.johnson126@example.com,085 Dalton Trail Apt. 718,Minneapolis,MN,32959,2017-11-20,Mass,Approved
+c00127,Andrew,Hickman,1941-07-06,andrew.hickman127@example.com,0036 Mark Ridge Suite 284,Newark,NJ,37694,2018-05-07,Mass,Approved
+c00128,Sarah,Gallegos,1995-08-23,sarah.gallegos128@example.com,7955 Victor Fords,Dallas,TX,66293,2017-09-26,Mass,Approved
+c00129,Natasha,Adams,1986-03-07,natasha.adams129@example.com,556 Hayes Ports Apt. 931,Detroit,MI,15771,2020-12-20,Mass,Approved
+c00130,Marie,White,1995-03-02,marie.white130@example.com,86632 Thomas Branch Apt. 672,Dallas,TX,38844,2018-09-03,Mass,Pending
+c00131,Kyle,Park,2002-03-19,kyle.park131@example.com,4489 Raymond Spurs Apt. 034,Detroit,MI,74619,2022-02-18,Mass,Approved
+c00132,Brian,Parker,1947-08-16,brian.parker132@example.com,175 Ward Points Suite 506,Minneapolis,MN,97851,2021-04-26,Mass Affluent,Approved
+c00133,Natalie,Morgan,1946-11-24,natalie.morgan133@example.com,9399 Tiffany Haven,Newark,NJ,56754,2018-12-04,Affluent,Approved
+c00134,Stacey,Smith,1950-06-22,stacey.smith134@example.com,8771 Austin Mountain Apt. 256,Minneapolis,MN,45970,2024-05-09,Affluent,Approved
+c00135,Christopher,Kane,1953-05-26,christopher.kane135@example.com,12535 Delgado Station Suite 964,Dallas,TX,49633,2019-04-28,Mass,Approved
+c00136,Todd,Knight,1976-02-23,todd.knight136@example.com,9876 Ivan Brooks Apt. 341,Atlanta,GA,71688,2024-11-15,Mass,Approved
+c00137,Chad,Morales,1995-10-13,chad.morales137@example.com,61117 Anthony Locks,Phoenix,AZ,59002,2020-05-11,Mass,Approved
+c00138,Kathleen,Thomas,1958-07-11,kathleen.thomas138@example.com,49216 Perez Street,Boston,MA,12090,2021-03-09,Mass Affluent,Approved
+c00139,Katie,Schultz,1967-05-03,katie.schultz139@example.com,2282 Austin Knolls Suite 778,Charlotte,NC,58531,2021-04-03,Mass Affluent,Approved
+c00140,David,Johnson,1965-09-18,david.johnson140@example.com,728 Brittany Motorway Suite 884,Detroit,MI,46005,2021-01-18,Mass Affluent,Approved
+c00141,Thomas,Reese,1967-12-16,thomas.reese141@example.com,8317 Diaz Green Apt. 400,Portland,OR,73072,2021-01-25,Mass Affluent,Approved
+c00142,Andrea,Lewis,1978-10-07,andrea.lewis142@example.com,4780 Arroyo Neck,Miami,FL,88759,2021-09-29,Mass,Approved
+c00143,Joseph,Barnes,2007-09-07,joseph.barnes143@example.com,64930 Lopez Points Suite 632,Charlotte,NC,96620,2021-05-24,Mass Affluent,Rejected
+c00144,Monique,Peterson,1955-09-15,monique.peterson144@example.com,3416 Zachary Union Suite 484,Minneapolis,MN,64920,2020-06-16,Mass Affluent,Approved
+c00145,Rodney,Wood,1986-11-11,rodney.wood145@example.com,12241 Williamson Groves Suite 350,San Francisco,CA,42630,2018-11-24,Mass,Approved
+c00146,Jason,Griffith,1998-01-01,jason.griffith146@example.com,80214 Martinez Mill,San Francisco,CA,49954,2020-08-02,Affluent,Approved
+c00147,Amber,Frank,1984-10-19,amber.frank147@example.com,12073 Fisher Turnpike,Philadelphia,PA,25881,2019-11-12,Mass,Approved
+c00148,Jessica,Bradley,1998-09-15,jessica.bradley148@example.com,7051 Brian Trail Suite 187,Charlotte,NC,94234,2018-04-25,Affluent,Approved
+c00149,James,Miller,1991-12-31,james.miller149@example.com,46013 Wise Mills,Los Angeles,CA,86258,2017-02-02,Mass Affluent,Approved
+c00150,Larry,Williams,1946-09-15,larry.williams150@example.com,037 Adriana Fords,Newark,NJ,86858,2024-02-18,Mass,Approved
+c00151,Wanda,Moore,1966-02-19,wanda.moore151@example.com,4520 Jon Route Suite 350,San Francisco,CA,39531,2019-04-21,Mass,Approved
+c00152,Debra,Williamson,1977-12-06,debra.williamson152@example.com,36502 Richards Locks,Miami,FL,38999,2023-03-15,Mass,Approved
+c00153,Samuel,Craig,1944-02-29,samuel.craig153@example.com,09792 Townsend Gateway,San Francisco,CA,87095,2023-06-06,Mass Affluent,Approved
+c00154,Zachary,Nelson,1940-12-27,zachary.nelson154@example.com,1950 Michael Drives,Charlotte,NC,59009,2018-08-30,Mass Affluent,Approved
+c00155,David,Stanley,1952-01-01,david.stanley155@example.com,73585 Quinn Brooks,Chicago,IL,73419,2024-06-14,Mass,Approved
+c00156,Jeffrey,Tucker,1974-05-03,jeffrey.tucker156@example.com,2407 Hansen Plains Suite 392,Dallas,TX,54084,2018-03-23,Mass Affluent,Approved
+c00157,Matthew,Ramos,1969-11-08,matthew.ramos157@example.com,7498 Casey Drives Suite 448,New York,NY,49849,2018-11-04,Mass,Approved
+c00158,Brianna,Nelson,1993-09-07,brianna.nelson158@example.com,0862 Christine Lakes Apt. 518,Minneapolis,MN,66898,2017-01-18,Mass,Approved
+c00159,Jerry,Fischer,1978-10-29,jerry.fischer159@example.com,87829 Morris Row Suite 118,Detroit,MI,83168,2019-08-30,Mass,Approved
+c00160,Jeffrey,Wilson,1998-09-09,jeffrey.wilson160@example.com,22031 Lee Bypass,Dallas,TX,40070,2018-01-09,Mass,Approved
+c00161,Chad,Jordan,1946-10-31,chad.jordan161@example.com,789 Williams Forges Apt. 037,Los Angeles,CA,82823,2024-01-20,Mass,Rejected
+c00162,Crystal,Campbell,1976-04-05,crystal.campbell162@example.com,0586 Bauer Centers,Dallas,TX,31978,2017-11-20,Mass,Pending
+c00163,Jeremy,Gregory,1943-03-29,jeremy.gregory163@example.com,014 Shirley Path Apt. 138,Minneapolis,MN,46254,2023-09-20,Mass,Approved
+c00164,Rebecca,Tucker,1954-09-21,rebecca.tucker164@example.com,38392 Reese Trafficway Suite 761,Detroit,MI,92140,2022-06-28,Mass,Approved
+c00165,Michele,Estrada,1999-05-19,michele.estrada165@example.com,86852 Mahoney Island,Detroit,MI,95900,2023-12-23,Mass Affluent,Approved
+c00166,Chad,Williams,2000-09-13,chad.williams166@example.com,6659 Anna Forest Suite 845,Seattle,WA,93148,2021-10-16,Mass,Approved
+c00167,John,Foster,1972-09-06,john.foster167@example.com,6004 Zachary Hollow Apt. 433,Atlanta,GA,38443,2019-01-05,Mass Affluent,Approved
+c00168,Elizabeth,Greene,1943-07-07,elizabeth.greene168@example.com,48889 Clinton Mount Suite 224,Boston,MA,85899,2022-11-10,Mass,Approved
+c00169,Jason,Smith,1945-05-27,jason.smith169@example.com,334 Davis Locks Apt. 157,Charlotte,NC,94247,2018-06-06,Mass,Approved
+c00170,David,Turner,2003-04-15,david.turner170@example.com,9194 Jessica Ports,Newark,NJ,98038,2020-02-26,Mass,Approved
+c00171,Selena,Clark,2001-07-02,selena.clark171@example.com,05566 Molly Forks Apt. 604,Philadelphia,PA,11881,2019-12-22,Mass,Rejected
+c00172,Ashley,Taylor,1978-08-31,ashley.taylor172@example.com,8925 Eric Spring,Philadelphia,PA,77049,2017-06-30,Mass,Approved
+c00173,Thomas,Scott,1942-08-02,thomas.scott173@example.com,9981 Ryan Turnpike Suite 225,Dallas,TX,99707,2021-07-20,Mass,Approved
+c00174,Kristen,Murphy,2003-07-03,kristen.murphy174@example.com,9086 Miller Parkway,Houston,TX,78820,2022-03-31,Mass,Rejected
+c00175,Lindsey,Smith,1961-09-24,lindsey.smith175@example.com,227 Tony Run Apt. 898,Houston,TX,30985,2017-01-18,Mass,Approved
+c00176,James,Burgess,2005-09-23,james.burgess176@example.com,14659 Daniel Loop,Detroit,MI,78633,2020-07-19,Mass,Approved
+c00177,Collin,Thompson,1980-04-07,collin.thompson177@example.com,5355 Kayla Extension Suite 979,Houston,TX,19471,2020-02-02,Mass,Approved
+c00178,Ryan,James,1991-07-02,ryan.james178@example.com,0335 Katherine Walk,New York,NY,53254,2022-08-19,Mass Affluent,Approved
+c00179,Rodney,Padilla,1988-10-23,rodney.padilla179@example.com,03924 Matthew Unions,San Francisco,CA,66360,2023-04-12,Mass,Approved
+c00180,Stuart,Mason,1967-06-07,stuart.mason180@example.com,7705 Jody Forest,Chicago,IL,51080,2023-08-24,Affluent,Approved
+c00181,Jessica,Whitaker,1945-07-30,jessica.whitaker181@example.com,848 Dean Divide,Los Angeles,CA,72985,2023-03-20,Mass Affluent,Pending
+c00182,Emily,Drake,1951-05-24,emily.drake182@example.com,9804 Brian Flats,Newark,NJ,31620,2023-06-11,Affluent,Approved
+c00183,Tracey,Jones,1956-09-12,tracey.jones183@example.com,70164 Lin Brook Suite 636,Minneapolis,MN,64559,2019-01-12,Mass Affluent,Approved
+c00184,Corey,Hensley,1997-02-07,corey.hensley184@example.com,7981 James Mount,Dallas,TX,68033,2024-07-15,Mass,Approved
+c00185,Richard,Williams,1966-10-23,richard.williams185@example.com,38457 Garner Brook,Detroit,MI,67041,2019-12-21,Mass,Approved
+c00186,Matthew,Smith,2001-04-24,matthew.smith186@example.com,554 Wendy Parkway Suite 046,Chicago,IL,36038,2017-05-31,Mass,Approved
+c00187,Michelle,Morse,1962-11-27,michelle.morse187@example.com,432 Prince Shoals,New York,NY,37484,2018-11-18,Mass Affluent,Approved
+c00188,John,Atkins,1991-09-24,john.atkins188@example.com,68936 Ashley Meadow,Miami,FL,33202,2021-10-12,Mass,Approved
+c00189,James,Johnston,1949-11-11,james.johnston189@example.com,578 Jamie Dam Apt. 248,Miami,FL,51559,2024-07-11,Mass,Approved
+c00190,Shane,Berry,2007-07-25,shane.berry190@example.com,2925 Angela Stravenue,Atlanta,GA,62736,2018-05-02,Affluent,Approved
+c00191,Robert,Mckinney,1989-08-04,robert.mckinney191@example.com,52056 Turner Summit,Dallas,TX,42628,2024-12-22,Mass,Approved
+c00192,Joshua,Butler,1974-05-27,joshua.butler192@example.com,31220 Obrien Ridge Apt. 933,Houston,TX,46898,2019-07-22,Mass,Approved
+c00193,John,Wilson,2006-08-08,john.wilson193@example.com,1728 Joseph Landing,Houston,TX,35777,2019-08-21,Mass Affluent,Approved
+c00194,Sandra,Smith,1943-12-31,sandra.smith194@example.com,7722 Jeremy Lodge,Charlotte,NC,29697,2023-06-20,Mass,Approved
+c00195,Scott,Nguyen,1970-01-25,scott.nguyen195@example.com,6333 Gregory Mill,Los Angeles,CA,69169,2019-02-01,Mass,Approved
+c00196,Michelle,Solis,1997-05-18,michelle.solis196@example.com,573 Sullivan Canyon Suite 569,Philadelphia,PA,83445,2023-08-07,Mass Affluent,Approved
+c00197,Andrea,Montgomery,1963-07-05,andrea.montgomery197@example.com,177 Natalie Gardens,Charlotte,NC,36163,2023-03-14,Mass,Approved
+c00198,Brent,Collier,1992-08-21,brent.collier198@example.com,086 James Mill Suite 447,Newark,NJ,87451,2018-07-05,Mass,Approved
+c00199,Yvette,Gillespie,2005-04-11,yvette.gillespie199@example.com,4908 Steven Rue,Charlotte,NC,61388,2017-03-04,Mass,Approved
+c00200,Mary,Davis,1967-04-28,mary.davis200@example.com,81298 Phillip Islands Suite 027,Los Angeles,CA,25092,2022-11-20,Mass,Pending
+c00201,Tanya,Richard,1992-12-12,tanya.richard201@example.com,1452 Christopher Squares,Charlotte,NC,42939,2017-08-20,Mass,Approved
+c00202,Sara,Sanchez,1942-05-12,sara.sanchez202@example.com,518 Acosta Pass Apt. 686,San Francisco,CA,10675,2017-09-13,Affluent,Pending
+c00203,Melinda,Chapman,1958-12-07,melinda.chapman203@example.com,59222 Kayla Center,Minneapolis,MN,13525,2018-11-07,Mass Affluent,Approved
+c00204,Gabriel,Warren,2007-11-04,gabriel.warren204@example.com,4742 Rachel Flats Apt. 940,Phoenix,AZ,40251,2023-11-19,Mass,Approved
+c00205,Todd,Foster,1973-09-16,todd.foster205@example.com,7809 Young Radial Suite 767,Detroit,MI,50901,2022-08-10,Mass,Pending
+c00206,Jason,Collins,1964-07-17,jason.collins206@example.com,903 Harvey Point,Charlotte,NC,81775,2019-08-02,Mass,Approved
+c00207,Richard,Morgan,2004-05-06,richard.morgan207@example.com,22050 Melissa Shores,Dallas,TX,22087,2017-01-05,Mass Affluent,Approved
+c00208,Brian,Cook,1969-09-17,brian.cook208@example.com,1016 Evan Haven Apt. 795,Los Angeles,CA,85525,2018-06-28,Mass,Approved
+c00209,Nicholas,Jackson,1986-07-26,nicholas.jackson209@example.com,45561 Bridges Circles,Atlanta,GA,31107,2021-08-22,Mass,Approved
+c00210,Tricia,Dixon,1985-04-10,tricia.dixon210@example.com,2145 Warren Square Apt. 901,Phoenix,AZ,22449,2023-02-14,Mass,Approved
+c00211,Joseph,Wilson,1946-03-05,joseph.wilson211@example.com,9469 Green Ports,Miami,FL,72990,2017-04-28,Affluent,Approved
+c00212,Kristen,Hicks,1982-05-31,kristen.hicks212@example.com,99787 Morton Ridge Apt. 430,Phoenix,AZ,79690,2022-10-17,Mass,Approved
+c00213,Spencer,Bullock,1994-08-13,spencer.bullock213@example.com,71396 Williams Keys,Dallas,TX,64442,2022-04-07,Mass Affluent,Approved
+c00214,Rodney,Bailey,1988-11-02,rodney.bailey214@example.com,34414 Hunter Islands,Minneapolis,MN,20413,2017-04-16,Mass,Approved
+c00215,Susan,Luna,1945-12-04,susan.luna215@example.com,55699 Marilyn Fields,Houston,TX,20381,2020-07-05,Affluent,Approved
+c00216,Wendy,Fuentes,1950-11-01,wendy.fuentes216@example.com,7702 Moore Mount Suite 760,Atlanta,GA,45105,2022-11-20,Mass,Approved
+c00217,Angela,Briggs,1988-09-27,angela.briggs217@example.com,588 Jared Spur Suite 512,Philadelphia,PA,50554,2024-12-16,Mass,Approved
+c00218,Jennifer,Young,1983-06-15,jennifer.young218@example.com,56829 Lopez Crescent Suite 504,Philadelphia,PA,99874,2021-07-25,Affluent,Approved
+c00219,Eric,Thomas,1990-08-23,eric.thomas219@example.com,73574 Alicia Extensions Apt. 503,Minneapolis,MN,35782,2017-02-12,Affluent,Approved
+c00220,Kenneth,Gonzalez,1961-11-18,kenneth.gonzalez220@example.com,8078 James Orchard,San Francisco,CA,27333,2021-07-18,Mass,Approved
+c00221,Tanya,Morrison,1947-08-05,tanya.morrison221@example.com,2182 Jenny Mount Suite 810,Philadelphia,PA,95131,2019-05-30,Mass,Approved
+c00222,Beth,Wolf,1940-09-13,beth.wolf222@example.com,91570 Abigail Shoals Suite 094,Detroit,MI,23856,2022-12-24,Mass,Approved
+c00223,Amy,Rios,1961-04-23,amy.rios223@example.com,3344 Mejia Skyway,Phoenix,AZ,12376,2018-10-20,Mass,Approved
+c00224,Julie,Thompson,1964-10-27,julie.thompson224@example.com,2241 Susan Points,Miami,FL,48052,2018-10-19,Mass,Approved
+c00225,Brian,Mejia,1958-09-10,brian.mejia225@example.com,85854 Sherry Unions,Dallas,TX,46097,2020-02-20,Mass Affluent,Approved
+c00226,Breanna,Snyder,1949-05-11,breanna.snyder226@example.com,321 Austin Junction Suite 020,Charlotte,NC,65770,2018-10-31,Mass,Approved
+c00227,Wesley,Webster,1953-02-02,wesley.webster227@example.com,016 Christopher Lock Apt. 997,Seattle,WA,88996,2020-05-16,Mass Affluent,Approved
+c00228,Melissa,Wolf,1970-11-13,melissa.wolf228@example.com,5381 Bradley Course Suite 174,Minneapolis,MN,93961,2021-12-23,Mass,Approved
+c00229,Eric,Cole,1978-01-26,eric.cole229@example.com,3329 Durham Lock Apt. 557,Chicago,IL,36067,2019-02-07,Mass,Approved
+c00230,Susan,Glass,1968-02-04,susan.glass230@example.com,17157 Singleton Haven Suite 992,Boston,MA,98273,2018-04-29,Mass,Approved
+c00231,Christopher,Cunningham,1942-02-18,christopher.cunningham231@example.com,1581 Patel Locks,Minneapolis,MN,66939,2018-04-12,Mass,Approved
+c00232,Jacob,Reid,1964-05-31,jacob.reid232@example.com,93827 Jones Fords Suite 695,Los Angeles,CA,16267,2023-04-19,Mass,Approved
+c00233,Brooke,Weber,1946-09-04,brooke.weber233@example.com,19719 Nguyen Court,Newark,NJ,94460,2019-08-05,Mass,Approved
+c00234,Emma,Lin,1981-01-05,emma.lin234@example.com,46191 Murphy Rue Apt. 132,Phoenix,AZ,22419,2024-12-19,Affluent,Approved
+c00235,Joe,Burton,1962-05-29,joe.burton235@example.com,27846 Gonzalez Springs,Detroit,MI,62973,2020-06-05,Mass Affluent,Approved
+c00236,David,Hernandez,1966-07-18,david.hernandez236@example.com,9465 Brandi Ridge Suite 240,Dallas,TX,81166,2020-06-08,Mass Affluent,Approved
+c00237,Pamela,Jones,1960-03-11,pamela.jones237@example.com,008 Rodriguez Haven Apt. 369,Houston,TX,32449,2022-02-04,Mass,Pending
+c00238,John,Ramos,1966-09-19,john.ramos238@example.com,566 Graham Forest Apt. 723,Chicago,IL,34356,2017-01-20,Mass,Approved
+c00239,Brooke,Turner,1946-02-08,brooke.turner239@example.com,6242 Alexander Rue Apt. 276,Atlanta,GA,52855,2017-12-10,Mass,Approved
+c00240,Christine,Hill,2001-08-16,christine.hill240@example.com,26796 Shawn Manors,Houston,TX,89636,2024-09-10,Mass,Approved
+c00241,Robert,Brown,2001-11-25,robert.brown241@example.com,5326 Becky Vista Apt. 846,Philadelphia,PA,30124,2023-05-02,Mass,Approved
+c00242,Brandy,Romero,2006-11-11,brandy.romero242@example.com,09751 Nixon Common Apt. 847,Minneapolis,MN,69710,2023-05-04,Mass,Approved
+c00243,Alexandra,Collins,1979-03-29,alexandra.collins243@example.com,913 Mccoy Shore,Newark,NJ,50733,2017-10-29,Mass,Approved
+c00244,Sarah,Hayes,1951-11-17,sarah.hayes244@example.com,894 Rebecca Place,Dallas,TX,20066,2020-11-07,Mass,Approved
+c00245,James,Brown,1966-03-28,james.brown245@example.com,7879 Fisher Union,Phoenix,AZ,73978,2019-03-05,Mass,Approved
+c00246,Jennifer,Decker,1949-10-15,jennifer.decker246@example.com,2094 Brown Mountains Apt. 904,Newark,NJ,84927,2018-07-11,Mass,Approved
+c00247,John,Jones,1960-10-28,john.jones247@example.com,7128 Melissa Harbors,Phoenix,AZ,61807,2018-11-12,Mass,Approved
+c00248,Randy,Lin,1973-11-17,randy.lin248@example.com,94440 Cassandra Ramp Apt. 752,Detroit,MI,25872,2024-04-15,Mass,Approved
+c00249,Emily,Wyatt,1944-08-25,emily.wyatt249@example.com,372 Matthew Corner Apt. 927,Houston,TX,24015,2023-11-18,Mass,Approved
+c00250,Kevin,Gilbert,1969-11-27,kevin.gilbert250@example.com,3723 Brown Greens Apt. 027,Newark,NJ,48114,2021-11-03,Mass,Approved
+c00251,Leslie,Hunter,1968-12-24,leslie.hunter251@example.com,4783 Vega Loaf Suite 428,New York,NY,55577,2022-04-18,Mass,Pending
+c00252,Karen,Ford,1973-04-10,karen.ford252@example.com,47658 Connor Place Suite 694,Detroit,MI,59696,2019-01-11,Mass Affluent,Approved
+c00253,Charles,Spencer,1945-07-30,charles.spencer253@example.com,4149 Murray Spring Apt. 938,New York,NY,31929,2023-10-02,Mass,Approved
+c00254,Stephen,Conner,1957-06-18,stephen.conner254@example.com,258 Emily Village Apt. 061,Charlotte,NC,55068,2022-01-12,Mass,Approved
+c00255,Yolanda,Huang,1957-02-11,yolanda.huang255@example.com,753 King Bypass,Dallas,TX,36557,2023-02-10,Affluent,Approved
+c00256,Wendy,Cole,1982-11-06,wendy.cole256@example.com,109 Stephanie Route,New York,NY,71754,2023-06-29,Mass,Approved
+c00257,Charles,Pacheco,1980-09-22,charles.pacheco257@example.com,119 Nicholas Track,Houston,TX,81682,2023-08-15,Mass Affluent,Approved
+c00258,Jason,Pearson,1953-08-23,jason.pearson258@example.com,24471 Livingston Harbor,Philadelphia,PA,68741,2023-06-10,Mass Affluent,Approved
+c00259,Joseph,Morris,1947-08-15,joseph.morris259@example.com,542 Joshua Circle Suite 650,Philadelphia,PA,10112,2020-06-28,Mass,Approved
+c00260,Sarah,Alvarez,1961-01-23,sarah.alvarez260@example.com,2717 Chelsey Fall Suite 128,Minneapolis,MN,99283,2021-09-21,Mass,Approved
+c00261,Nicole,Hernandez,2004-11-12,nicole.hernandez261@example.com,91741 Charles Ports Suite 707,Houston,TX,12139,2021-07-09,Mass,Approved
+c00262,Natasha,Brown,1962-12-09,natasha.brown262@example.com,006 Hernandez Isle,Newark,NJ,99947,2021-03-03,Affluent,Approved
+c00263,Mike,Garcia,1982-07-09,mike.garcia263@example.com,087 Graham Vista Apt. 830,Miami,FL,12859,2019-01-29,Mass,Approved
+c00264,Eric,Nolan,1995-01-09,eric.nolan264@example.com,719 Cook Hollow Suite 015,Portland,OR,56481,2018-02-10,Mass,Approved
+c00265,Martha,Cooper,1962-10-03,martha.cooper265@example.com,74328 Tammy Shore Apt. 461,Seattle,WA,19537,2020-10-16,Mass,Approved
+c00266,Jade,Klein,1963-02-09,jade.klein266@example.com,1732 James Stravenue Apt. 761,Chicago,IL,18567,2019-11-13,Mass,Approved
+c00267,Cheryl,Wagner,1995-10-19,cheryl.wagner267@example.com,8700 Brown Turnpike Apt. 613,Chicago,IL,71505,2019-02-05,Mass Affluent,Approved
+c00268,Vanessa,Thompson,1998-10-17,vanessa.thompson268@example.com,829 Sandy Camp Apt. 707,Miami,FL,75505,2019-06-26,Mass,Approved
+c00269,Destiny,Wright,2006-08-05,destiny.wright269@example.com,20204 Stephen Extension,Phoenix,AZ,20641,2023-12-05,Mass Affluent,Pending
+c00270,Alan,Kim,1949-08-08,alan.kim270@example.com,17993 Linda Meadow,Chicago,IL,97899,2017-02-21,Mass Affluent,Approved
+c00271,Lisa,Gonzales,1962-02-25,lisa.gonzales271@example.com,651 Marc Underpass Apt. 092,Miami,FL,38841,2023-09-07,Mass,Pending
+c00272,Kevin,Mills,2004-10-05,kevin.mills272@example.com,14262 Tran Mill Apt. 902,New York,NY,38649,2021-09-16,Mass,Approved
+c00273,Elizabeth,Moore,1954-01-02,elizabeth.moore273@example.com,962 Nichole Common,Newark,NJ,36727,2019-10-14,Mass Affluent,Approved
+c00274,Sheila,Watson,1961-09-17,sheila.watson274@example.com,21946 Schwartz Ford,Los Angeles,CA,51508,2021-10-11,Mass Affluent,Approved
+c00275,Dennis,Campbell,2005-12-09,dennis.campbell275@example.com,487 Allen Extensions,Minneapolis,MN,26005,2023-01-22,Mass Affluent,Approved
+c00276,Darrell,Ortiz,2006-03-22,darrell.ortiz276@example.com,279 Courtney Tunnel,Minneapolis,MN,48229,2017-08-14,Mass,Approved
+c00277,Daniel,Morgan,1960-03-01,daniel.morgan277@example.com,6083 David Pines Apt. 958,Detroit,MI,28898,2024-06-06,Mass,Approved
+c00278,Angela,Harper,1987-08-09,angela.harper278@example.com,3403 Laura Spur,Phoenix,AZ,14627,2023-01-14,Mass,Approved
+c00279,Joseph,Mccormick,1973-09-26,joseph.mccormick279@example.com,2200 Mitchell Mews Suite 597,New York,NY,43186,2017-01-23,Mass Affluent,Approved
+c00280,Cassandra,Holland,1979-07-05,cassandra.holland280@example.com,08220 Robertson Cliffs,Newark,NJ,70503,2019-03-02,Mass,Approved
+c00281,Jennifer,Jones,1956-10-31,jennifer.jones281@example.com,799 Barnes Summit,Charlotte,NC,78678,2024-04-22,Mass,Approved
+c00282,James,Davis,1965-12-02,james.davis282@example.com,15313 Kane Lane Apt. 179,Minneapolis,MN,41800,2018-12-20,Mass,Approved
+c00283,Cynthia,Gregory,1995-11-14,cynthia.gregory283@example.com,62397 Paul Dale Suite 354,Dallas,TX,39137,2017-04-02,Mass,Approved
+c00284,Joseph,Mitchell,1967-01-25,joseph.mitchell284@example.com,2090 Taylor Walk,Minneapolis,MN,80871,2024-03-21,Mass Affluent,Approved
+c00285,Tracy,Cummings,1948-02-03,tracy.cummings285@example.com,6253 Munoz Turnpike Apt. 983,Detroit,MI,71306,2021-09-09,Mass,Approved
+c00286,Rebecca,Douglas,1978-09-09,rebecca.douglas286@example.com,8739 Hood Harbors,Seattle,WA,84890,2021-04-04,Mass,Approved
+c00287,Meghan,Escobar,1980-08-14,meghan.escobar287@example.com,633 Hamilton Forges,Newark,NJ,91549,2023-12-15,Mass Affluent,Approved
+c00288,Christopher,Marks,1977-06-13,christopher.marks288@example.com,060 Vickie Street,Chicago,IL,83910,2023-05-26,Mass Affluent,Approved
+c00289,Rodney,Cook,1986-09-14,rodney.cook289@example.com,8671 Simpson Corner,Chicago,IL,94283,2023-08-12,Mass,Approved
+c00290,Joshua,Aguilar,1977-10-02,joshua.aguilar290@example.com,632 Phillips Rue,Detroit,MI,47499,2023-07-09,Mass,Approved
+c00291,Adam,Thomas,2005-02-24,adam.thomas291@example.com,74279 Tiffany Mountain,Seattle,WA,45520,2021-10-10,Affluent,Approved
+c00292,Kellie,Bailey,1971-09-27,kellie.bailey292@example.com,625 Padilla Alley,Charlotte,NC,38939,2021-04-17,Mass Affluent,Approved
+c00293,Dana,Ponce,1988-07-07,dana.ponce293@example.com,5804 Mullins Square,San Francisco,CA,31170,2023-02-06,Mass,Approved
+c00294,Jose,Hale,1970-02-28,jose.hale294@example.com,195 Zachary Spring,Atlanta,GA,77393,2022-09-08,Mass,Approved
+c00295,Joyce,Myers,1960-02-27,joyce.myers295@example.com,16579 Michael Extensions Apt. 832,Minneapolis,MN,74300,2023-06-19,Mass,Approved
+c00296,Andrea,Larson,1987-06-17,andrea.larson296@example.com,81793 Luke Grove Suite 401,Detroit,MI,82125,2018-08-21,Mass,Pending
+c00297,Ronald,Hurley,1996-01-14,ronald.hurley297@example.com,7788 Theodore Place Suite 795,San Francisco,CA,25065,2023-04-23,Mass Affluent,Approved
+c00298,Alec,Collins,1994-06-14,alec.collins298@example.com,71162 Mullen Club,Minneapolis,MN,54213,2017-09-29,Mass,Approved
+c00299,Charles,Bennett,1968-03-02,charles.bennett299@example.com,41272 Abigail Road,Miami,FL,29976,2020-09-10,Mass,Approved
+c00300,Nicole,Conner,1974-04-20,nicole.conner300@example.com,6827 Fisher Street,New York,NY,90372,2018-08-02,Mass Affluent,Approved
+c00301,Rebecca,Li,1983-06-01,rebecca.li301@example.com,3103 Jenkins Junctions,Charlotte,NC,34067,2019-11-30,Affluent,Pending
+c00302,Amy,Santiago,1956-10-21,amy.santiago302@example.com,9887 Torres Curve Suite 243,San Francisco,CA,22951,2022-11-16,Mass Affluent,Approved
+c00303,Mary,Calderon,1985-02-19,mary.calderon303@example.com,4025 Bryant Expressway Apt. 842,Philadelphia,PA,61287,2020-03-12,Mass,Approved
+c00304,Brandi,Rodgers,1988-12-25,brandi.rodgers304@example.com,223 Blake Island,Portland,OR,89116,2022-10-23,Mass,Rejected
+c00305,Earl,Jennings,1994-01-02,earl.jennings305@example.com,4523 Elizabeth Key,Detroit,MI,92415,2024-01-20,Mass,Approved
+c00306,David,Fox,1945-05-18,david.fox306@example.com,7828 Martinez Burg,Philadelphia,PA,18648,2022-12-19,Mass,Approved
+c00307,Kyle,Lucas,2007-09-19,kyle.lucas307@example.com,2752 Tara Plains Suite 474,Atlanta,GA,39330,2022-10-19,Mass,Approved
+c00308,Rachel,Henderson,1972-12-07,rachel.henderson308@example.com,751 Mccullough Dam,Chicago,IL,23817,2023-12-03,Mass,Approved
+c00309,Laura,Cox,1967-08-08,laura.cox309@example.com,0693 Howard Islands,Miami,FL,37707,2024-10-24,Mass,Approved
+c00310,Michelle,Cox,1974-10-18,michelle.cox310@example.com,398 Kimberly Trafficway,Newark,NJ,58045,2017-06-16,Mass Affluent,Approved
+c00311,Rachel,White,2002-12-07,rachel.white311@example.com,01871 Lee Island Apt. 562,Dallas,TX,35251,2020-11-23,Affluent,Pending
+c00312,Jason,Lewis,1987-05-20,jason.lewis312@example.com,6504 Bell Mission Apt. 376,Dallas,TX,16076,2021-10-15,Mass,Pending
+c00313,John,Meza,1977-04-25,john.meza313@example.com,2662 Douglas Hollow Suite 851,Newark,NJ,55902,2017-07-26,Mass,Approved
+c00314,Curtis,Tucker,1994-02-12,curtis.tucker314@example.com,06462 Page Throughway Apt. 326,Charlotte,NC,14752,2023-03-16,Mass,Approved
+c00315,Kimberly,Perez,1964-10-17,kimberly.perez315@example.com,704 Snyder Streets Suite 300,Charlotte,NC,30402,2021-10-12,Mass,Approved
+c00316,Nicole,Taylor,2001-03-29,nicole.taylor316@example.com,4714 White Spurs,Houston,TX,10046,2018-03-26,Mass,Approved
+c00317,Richard,Jones,1976-11-09,richard.jones317@example.com,14719 Perkins Port,Phoenix,AZ,17813,2019-12-13,Mass,Approved
+c00318,Christine,Richard,1983-09-29,christine.richard318@example.com,7158 Megan Estates Apt. 257,Dallas,TX,49268,2021-10-23,Mass Affluent,Approved
+c00319,Eric,Garcia,1946-02-15,eric.garcia319@example.com,2045 Fields Knolls,San Francisco,CA,86564,2022-12-15,Mass,Approved
+c00320,Sarah,Wise,1992-08-20,sarah.wise320@example.com,4818 Katie Falls,Dallas,TX,79716,2024-09-20,Mass Affluent,Approved
+c00321,Michelle,Conley,1985-01-23,michelle.conley321@example.com,285 Serrano Spur,Atlanta,GA,18894,2024-04-27,Mass,Approved
+c00322,Theresa,Stephenson,1964-06-27,theresa.stephenson322@example.com,5189 Morrow Bridge Apt. 845,Boston,MA,13135,2023-09-16,Mass,Approved
+c00323,Lisa,Johnson,1984-05-05,lisa.johnson323@example.com,5213 Wesley Village Apt. 898,Dallas,TX,40427,2018-09-18,Mass,Approved
+c00324,Nicole,Rogers,1943-05-12,nicole.rogers324@example.com,7112 Timothy Inlet,Portland,OR,68703,2019-11-22,Mass,Approved
+c00325,Angel,Miranda,2007-03-26,angel.miranda325@example.com,79852 Johnson Via Apt. 322,Portland,OR,77205,2021-07-15,Mass,Approved
+c00326,Jill,Anderson,1986-06-01,jill.anderson326@example.com,2321 Vazquez Tunnel,Atlanta,GA,84081,2018-09-28,Affluent,Approved
+c00327,Martin,Bennett,1967-07-10,martin.bennett327@example.com,07603 Antonio Shoals,Charlotte,NC,40798,2023-09-19,Mass,Approved
+c00328,Sarah,Martin,1991-07-13,sarah.martin328@example.com,1401 Contreras Throughway,New York,NY,25120,2023-04-26,Mass,Approved
+c00329,Leah,Guerra,2006-01-06,leah.guerra329@example.com,93932 Johnson Drive,Philadelphia,PA,12371,2021-11-11,Mass,Approved
+c00330,Michelle,Wise,1969-08-14,michelle.wise330@example.com,552 William Cliff Apt. 908,Detroit,MI,23217,2017-09-01,Mass,Approved
+c00331,Lisa,Lamb,1941-01-23,lisa.lamb331@example.com,342 Teresa Courts,Detroit,MI,15864,2020-02-03,Mass,Pending
+c00332,Joseph,Martin,1957-12-10,joseph.martin332@example.com,759 Scott Coves,Charlotte,NC,87472,2018-03-14,Mass,Approved
+c00333,Kristin,Kim,1975-01-27,kristin.kim333@example.com,6638 Rick Trace,Miami,FL,34157,2023-01-07,Mass Affluent,Approved
+c00334,Daniel,Jenkins,1975-08-17,daniel.jenkins334@example.com,71827 Bush Point Apt. 157,Portland,OR,84081,2018-03-21,Mass,Approved
+c00335,Monica,Rhodes,1979-10-28,monica.rhodes335@example.com,4794 Perez Lodge,Detroit,MI,59784,2024-06-03,Mass,Approved
+c00336,Michele,Young,1979-06-19,michele.young336@example.com,3175 Alexander Spring Suite 167,Portland,OR,58504,2023-03-08,Mass,Approved
+c00337,Jeffrey,Wallace,1970-08-29,jeffrey.wallace337@example.com,26691 Calvin Flat,Los Angeles,CA,50931,2020-10-26,Mass Affluent,Approved
+c00338,Lisa,Mitchell,1966-12-11,lisa.mitchell338@example.com,96136 Ramirez Station Suite 657,Atlanta,GA,83727,2024-08-06,Mass,Approved
+c00339,Steven,Goodman,1992-11-12,steven.goodman339@example.com,8427 David Overpass Suite 320,Charlotte,NC,13910,2018-02-20,Mass,Approved
+c00340,Kevin,Cole,1980-05-15,kevin.cole340@example.com,017 Teresa Light,San Francisco,CA,18348,2018-01-25,Mass,Approved
+c00341,Laura,Ferguson,1974-05-19,laura.ferguson341@example.com,49911 Sparks Flats Suite 778,Dallas,TX,48104,2020-09-02,Mass,Approved
+c00342,Jeremy,Collins,1963-10-21,jeremy.collins342@example.com,588 Stephanie Bypass Suite 167,Atlanta,GA,45503,2022-07-23,Mass,Approved
+c00343,Andrew,Stokes,1942-01-07,andrew.stokes343@example.com,7700 Angela Wall Suite 276,Houston,TX,59103,2024-03-18,Mass Affluent,Approved
+c00344,James,Harrison,1947-06-16,james.harrison344@example.com,6719 Keller Spur,Detroit,MI,76401,2020-01-20,Mass,Approved
+c00345,Mark,Conley,1968-08-19,mark.conley345@example.com,8280 Baker Ramp Suite 954,Seattle,WA,62879,2020-09-13,Mass Affluent,Approved
+c00346,Michelle,Richardson,2005-09-29,michelle.richardson346@example.com,09025 Pacheco Prairie Apt. 561,Charlotte,NC,33170,2018-12-04,Mass,Approved
+c00347,Tammy,Valentine,1948-03-28,tammy.valentine347@example.com,5650 John Rue Suite 911,Portland,OR,39456,2020-03-08,Mass Affluent,Approved
+c00348,Joshua,Joyce,2004-04-24,joshua.joyce348@example.com,52085 Steven Way Suite 986,Los Angeles,CA,77709,2023-12-23,Mass Affluent,Approved
+c00349,Darlene,Murray,1949-12-24,darlene.murray349@example.com,79056 Morris Courts Suite 135,Philadelphia,PA,28132,2024-01-11,Mass,Approved
+c00350,Ricardo,Campbell,1961-07-22,ricardo.campbell350@example.com,529 Cox Mews Apt. 718,Philadelphia,PA,55376,2018-10-04,Mass,Approved
+c00351,Tina,Reyes,1971-04-24,tina.reyes351@example.com,4049 Ballard Road,Chicago,IL,58491,2023-09-24,Mass,Approved
+c00352,Amanda,Rose,1954-05-31,amanda.rose352@example.com,919 Nelson Port,Boston,MA,77523,2017-07-01,Mass Affluent,Approved
+c00353,Sheila,Burch,1973-03-09,sheila.burch353@example.com,3514 Reynolds Plains Suite 366,Miami,FL,74291,2024-02-26,Mass,Approved
+c00354,Darrell,Montoya,1972-09-22,darrell.montoya354@example.com,878 Nicole Road Apt. 973,Minneapolis,MN,51821,2019-03-07,Mass,Approved
+c00355,Tara,Solis,1970-02-21,tara.solis355@example.com,8969 Alexa Lakes Suite 232,Seattle,WA,37824,2017-03-16,Mass,Approved
+c00356,Gregory,Taylor,1987-09-23,gregory.taylor356@example.com,6513 Adams Heights Apt. 493,San Francisco,CA,43111,2021-06-22,Mass Affluent,Approved
+c00357,Sydney,Wright,1962-01-12,sydney.wright357@example.com,12303 Marshall Points Suite 603,Boston,MA,47043,2024-07-19,Mass,Approved
+c00358,Joseph,Davidson,1960-10-06,joseph.davidson358@example.com,2044 Dawn Canyon,Seattle,WA,29727,2017-12-29,Mass,Approved
+c00359,Daniel,Sawyer,1995-06-10,daniel.sawyer359@example.com,01594 Rachel Lodge Suite 162,New York,NY,66286,2023-07-04,Affluent,Approved
+c00360,Ryan,Spencer,1948-03-04,ryan.spencer360@example.com,98189 Crawford Course,Dallas,TX,28754,2020-10-13,Mass,Approved
+c00361,Jessica,Garcia,1998-02-03,jessica.garcia361@example.com,155 Shaffer Summit,Seattle,WA,68380,2017-02-17,Mass Affluent,Approved
+c00362,Lee,Singleton,1984-05-29,lee.singleton362@example.com,3212 Tara Mill,Seattle,WA,77634,2019-01-18,Mass,Approved
+c00363,Catherine,Rosales,1986-05-24,catherine.rosales363@example.com,9078 Lyons Creek Suite 867,Miami,FL,96565,2024-08-18,Mass,Approved
+c00364,William,Mitchell,1951-07-11,william.mitchell364@example.com,2575 Smith Rest,Seattle,WA,20701,2018-06-11,Mass Affluent,Approved
+c00365,Paul,Hines,2007-04-03,paul.hines365@example.com,034 Parker Squares,Philadelphia,PA,78375,2023-09-18,Mass,Approved
+c00366,Barbara,Nelson,1956-12-07,barbara.nelson366@example.com,183 Price Lock Suite 413,Chicago,IL,17738,2019-01-04,Mass,Approved
+c00367,Jonathan,Whitehead,1952-03-17,jonathan.whitehead367@example.com,27560 Delacruz View Suite 765,Chicago,IL,40352,2020-01-14,Mass,Approved
+c00368,Jeanne,Hernandez,1951-03-28,jeanne.hernandez368@example.com,24815 Guzman Via Suite 700,Miami,FL,25866,2022-09-13,Mass,Approved
+c00369,Aaron,Kim,1978-06-01,aaron.kim369@example.com,720 Gonzalez Inlet,Newark,NJ,24605,2021-08-13,Mass,Approved
+c00370,Sara,Potts,2005-07-10,sara.potts370@example.com,112 Zachary Trafficway Apt. 965,Dallas,TX,25781,2024-01-22,Mass,Approved
+c00371,Amanda,Walker,1956-02-11,amanda.walker371@example.com,2429 Marsh Flat Apt. 652,Charlotte,NC,13954,2017-02-10,Mass,Approved
+c00372,Jennifer,Hayes,1967-11-22,jennifer.hayes372@example.com,9300 Rebecca Mountain Apt. 420,Dallas,TX,84079,2023-02-05,Mass,Approved
+c00373,Judy,Bailey,1952-11-21,judy.bailey373@example.com,694 Christopher Land Apt. 910,Detroit,MI,15501,2022-07-14,Mass,Approved
+c00374,Emily,Johnson,1983-11-25,emily.johnson374@example.com,7133 Sophia Via Suite 476,Miami,FL,45865,2020-12-24,Mass,Approved
+c00375,Michael,Brown,1969-09-24,michael.brown375@example.com,3934 Robert Lodge,Portland,OR,72924,2019-08-17,Mass,Approved
+c00376,Chad,Shaw,1942-05-02,chad.shaw376@example.com,44397 Mike Spur,Newark,NJ,99134,2020-12-17,Mass,Approved
+c00377,Elizabeth,Young,1982-02-08,elizabeth.young377@example.com,07256 Jennifer Station Suite 941,Phoenix,AZ,86833,2020-12-17,Mass Affluent,Approved
+c00378,Mark,Vang,1953-10-06,mark.vang378@example.com,005 Thomas Knoll,Phoenix,AZ,22349,2020-05-05,Mass,Approved
+c00379,Lee,Brooks,1980-08-13,lee.brooks379@example.com,48964 Lambert Curve,Miami,FL,98896,2018-02-22,Mass,Approved
+c00380,Melanie,Johnson,1966-10-15,melanie.johnson380@example.com,242 Conrad Wells,Miami,FL,68818,2021-11-04,Mass,Pending
+c00381,Jennifer,Galvan,1988-04-08,jennifer.galvan381@example.com,15862 Wilson Cape Apt. 745,Newark,NJ,26161,2018-05-08,Mass Affluent,Approved
+c00382,Kevin,Combs,1954-05-05,kevin.combs382@example.com,4948 Graham Expressway Suite 728,San Francisco,CA,50385,2018-09-17,Mass,Approved
+c00383,Kyle,Santos,1991-07-04,kyle.santos383@example.com,32032 Thomas Estates Suite 617,San Francisco,CA,92609,2017-04-26,Mass,Pending
+c00384,Ricky,Moody,1995-05-05,ricky.moody384@example.com,5877 Rodriguez Stravenue,Charlotte,NC,45362,2017-09-13,Mass,Approved
+c00385,Richard,Taylor,1944-08-07,richard.taylor385@example.com,51342 Karen View,Boston,MA,26527,2018-08-15,Mass,Approved
+c00386,Kenneth,Mitchell,1947-04-08,kenneth.mitchell386@example.com,939 Alicia Ports Apt. 613,New York,NY,88757,2023-01-11,Mass Affluent,Approved
+c00387,David,Gallegos,1999-08-23,david.gallegos387@example.com,150 Maldonado Springs Apt. 659,Philadelphia,PA,95767,2018-10-24,Affluent,Approved
+c00388,Robert,Horton,1953-01-22,robert.horton388@example.com,2017 Gibson Grove,San Francisco,CA,97803,2019-02-11,Mass,Pending
+c00389,Shelby,Taylor,1962-07-07,shelby.taylor389@example.com,0975 Jason Causeway,Portland,OR,96013,2022-09-08,Mass Affluent,Approved
+c00390,Erica,Thornton,1971-06-18,erica.thornton390@example.com,0189 Davis Glens Apt. 361,Newark,NJ,88557,2019-08-01,Mass,Approved
+c00391,Raven,West,1958-03-10,raven.west391@example.com,26642 Kenneth Unions,Houston,TX,50904,2022-12-24,Mass,Approved
+c00392,Christina,Smith,1999-01-03,christina.smith392@example.com,492 Wade Village Suite 837,Philadelphia,PA,27307,2020-10-26,Mass Affluent,Approved
+c00393,Kevin,Miller,1976-03-25,kevin.miller393@example.com,7499 Davis Manors Suite 926,Charlotte,NC,65544,2018-08-19,Mass,Pending
+c00394,Amy,Scott,1983-10-22,amy.scott394@example.com,08573 Sarah Pine Apt. 476,Minneapolis,MN,29871,2023-06-30,Mass,Approved
+c00395,Aaron,Conley,1980-12-09,aaron.conley395@example.com,4224 Alexandra Hill,Houston,TX,52583,2022-04-23,Mass,Approved
+c00396,Justin,Dunn,1981-12-01,justin.dunn396@example.com,108 William Loop,Los Angeles,CA,69046,2018-08-23,Affluent,Pending
+c00397,Russell,Acosta,1980-04-06,russell.acosta397@example.com,9454 Kayla Brook,Philadelphia,PA,95192,2021-05-16,Mass,Approved
+c00398,Bethany,Rose,1964-01-03,bethany.rose398@example.com,722 Williams Mall,Philadelphia,PA,36017,2017-04-27,Mass,Approved
+c00399,Diana,Rodriguez,1997-11-04,diana.rodriguez399@example.com,9779 Peterson Well Apt. 321,Atlanta,GA,32672,2024-12-08,Mass,Approved
+c00400,Steven,Roberts,1982-04-30,steven.roberts400@example.com,168 Adam Crescent Apt. 277,Atlanta,GA,76125,2019-03-26,Mass,Approved
+c00401,Scott,Turner,1995-09-06,scott.turner401@example.com,974 Vazquez Spurs Suite 412,Portland,OR,10581,2018-06-29,Mass,Approved
+c00402,Jason,Williams,1988-05-09,jason.williams402@example.com,31030 Timothy Drive,Houston,TX,60977,2017-08-30,Mass Affluent,Approved
+c00403,Thomas,Barnes,1960-07-28,thomas.barnes403@example.com,8314 Hernandez Manors,Atlanta,GA,77132,2023-10-01,Mass Affluent,Approved
+c00404,Rachel,Bauer,1982-02-17,rachel.bauer404@example.com,22777 Michelle Prairie,San Francisco,CA,59581,2017-02-18,Mass Affluent,Approved
+c00405,Laura,Bryant,1946-02-09,laura.bryant405@example.com,49605 Curtis Vista,Chicago,IL,44555,2021-11-12,Mass Affluent,Approved
+c00406,Gene,Rodriguez,1949-06-15,gene.rodriguez406@example.com,7998 Johnson Locks Suite 899,Chicago,IL,84569,2022-03-10,Mass,Approved
+c00407,Christopher,Stein,1948-05-12,christopher.stein407@example.com,08069 Tran Grove Suite 717,Detroit,MI,43393,2022-02-27,Mass,Approved
+c00408,Zachary,Carlson,1961-02-10,zachary.carlson408@example.com,6024 Taylor Mill Apt. 839,Newark,NJ,73947,2019-11-25,Mass,Approved
+c00409,Cynthia,Smith,1952-10-17,cynthia.smith409@example.com,724 Moyer Village Suite 729,Seattle,WA,51772,2019-09-24,Mass,Approved
+c00410,Matthew,Robertson,1987-07-02,matthew.robertson410@example.com,1722 Eric Overpass,Boston,MA,12391,2021-03-19,Affluent,Approved
+c00411,Loretta,Allen,1975-01-31,loretta.allen411@example.com,7433 Yvette Knolls,New York,NY,57746,2024-06-07,Mass,Approved
+c00412,Karen,Thomas,1968-10-14,karen.thomas412@example.com,2280 Matthew Crescent Apt. 183,Miami,FL,14451,2017-02-11,Affluent,Approved
+c00413,Emily,Patterson,1949-09-21,emily.patterson413@example.com,5508 Kemp Walk Apt. 077,Atlanta,GA,93786,2023-03-24,Mass,Approved
+c00414,Jeffrey,Mendez,1966-06-10,jeffrey.mendez414@example.com,99180 Gary Crest,Newark,NJ,64140,2024-04-02,Mass,Approved
+c00415,James,Allen,1952-12-23,james.allen415@example.com,2478 Oconnor Courts,Philadelphia,PA,43482,2020-03-23,Mass,Approved
+c00416,Andrew,Butler,1983-07-24,andrew.butler416@example.com,552 Melinda Mill,Phoenix,AZ,53757,2021-09-14,Mass,Approved
+c00417,John,Beck,1987-07-02,john.beck417@example.com,37548 Christopher Landing Suite 532,Los Angeles,CA,65726,2020-01-30,Mass,Approved
+c00418,Thomas,Miller,1984-03-23,thomas.miller418@example.com,26667 Acevedo Mills Apt. 081,Boston,MA,33416,2018-01-01,Mass,Approved
+c00419,Melissa,Villegas,2008-05-04,melissa.villegas419@example.com,5626 Phillip Camp,Charlotte,NC,35955,2024-03-22,Mass,Approved
+c00420,Charles,Jones,1978-01-30,charles.jones420@example.com,084 Morales Springs,Detroit,MI,47679,2022-09-24,Affluent,Approved
+c00421,Robert,Fox,1973-08-23,robert.fox421@example.com,550 Mccullough Ridge Apt. 673,Portland,OR,33271,2020-11-14,Mass,Approved
+c00422,Crystal,Romero,1949-11-20,crystal.romero422@example.com,563 Miller Plain Suite 628,Phoenix,AZ,78211,2018-09-14,Mass,Approved
+c00423,James,Mcneil,1961-09-27,james.mcneil423@example.com,18848 Sherman Estate Apt. 089,Dallas,TX,19343,2020-03-14,Mass Affluent,Approved
+c00424,Heather,Spencer,1971-01-06,heather.spencer424@example.com,46810 Green Parkways Suite 101,Minneapolis,MN,84395,2021-12-10,Mass,Approved
+c00425,Troy,Myers,1943-12-29,troy.myers425@example.com,9075 Linda Prairie Apt. 544,Chicago,IL,41367,2020-02-15,Mass Affluent,Approved
+c00426,John,Harrison,1964-10-05,john.harrison426@example.com,683 Mark Prairie,Newark,NJ,60510,2017-03-02,Mass Affluent,Approved
+c00427,Diana,Reid,1940-12-31,diana.reid427@example.com,7126 Miller Circle,Los Angeles,CA,24198,2021-03-01,Mass,Approved
+c00428,Adam,Zavala,1949-08-19,adam.zavala428@example.com,73715 Chapman Path Suite 497,Portland,OR,44683,2017-12-09,Mass,Approved
+c00429,Karen,King,1995-10-13,karen.king429@example.com,7622 Todd Mount Apt. 881,Boston,MA,77913,2018-10-07,Mass,Pending
+c00430,Kayla,Smith,2005-11-20,kayla.smith430@example.com,7028 Dorsey Crest,Phoenix,AZ,34362,2022-08-05,Mass Affluent,Approved
+c00431,Daniel,Kramer,1974-09-19,daniel.kramer431@example.com,15940 David Inlet Suite 447,Boston,MA,21904,2023-01-03,Mass Affluent,Approved
+c00432,Ronald,Cooper,1974-01-02,ronald.cooper432@example.com,29604 Lewis Viaduct,Houston,TX,56972,2018-11-05,Mass Affluent,Approved
+c00433,Gregory,Quinn,1986-11-27,gregory.quinn433@example.com,18510 Olson Inlet Suite 567,Seattle,WA,24624,2023-05-06,Mass,Rejected
+c00434,Susan,Fuller,1968-08-11,susan.fuller434@example.com,87772 Davis Road,Philadelphia,PA,38327,2022-04-23,Mass,Approved
+c00435,April,Ingram,1997-06-17,april.ingram435@example.com,3658 Susan Mills Suite 120,Chicago,IL,50541,2023-02-13,Mass,Approved
+c00436,Brent,Moss,1973-07-30,brent.moss436@example.com,181 Stephanie Plains Apt. 983,New York,NY,60768,2020-02-26,Affluent,Approved
+c00437,John,Cook,1945-12-20,john.cook437@example.com,018 Suzanne Harbor Apt. 397,Detroit,MI,67543,2022-08-26,Mass,Approved
+c00438,Melinda,Williams,1942-06-12,melinda.williams438@example.com,956 Travis Brooks,Los Angeles,CA,70898,2019-09-27,Mass,Approved
+c00439,Stephen,Payne,1992-02-06,stephen.payne439@example.com,2608 Reyes Course Apt. 182,Boston,MA,85985,2017-07-12,Mass,Approved
+c00440,Laurie,Li,1960-03-17,laurie.li440@example.com,24124 Gregory Circle Suite 200,Charlotte,NC,15947,2018-05-15,Mass Affluent,Approved
+c00441,Elizabeth,Thompson,1959-01-14,elizabeth.thompson441@example.com,1526 Scott Views Apt. 033,Portland,OR,42609,2017-06-03,Affluent,Approved
+c00442,Vanessa,Maxwell,1976-11-26,vanessa.maxwell442@example.com,8861 Brown Mountain,Miami,FL,10096,2024-10-21,Mass,Approved
+c00443,Caitlin,Marshall,1951-10-14,caitlin.marshall443@example.com,70630 Spencer Radial Apt. 382,Newark,NJ,10849,2021-05-12,Mass,Approved
+c00444,Stephanie,Dominguez,1971-06-12,stephanie.dominguez444@example.com,671 Krista Divide Suite 823,Detroit,MI,29104,2023-03-30,Mass,Approved
+c00445,Patricia,Welch,1990-11-02,patricia.welch445@example.com,700 Woodward River Suite 200,Chicago,IL,63832,2017-08-30,Mass,Approved
+c00446,Cheyenne,Cain,1992-06-06,cheyenne.cain446@example.com,9465 Brenda Pass Suite 028,Houston,TX,90506,2019-04-24,Mass,Approved
+c00447,Jennifer,Brown,1977-09-23,jennifer.brown447@example.com,1612 Johns Fords,Charlotte,NC,79618,2022-06-10,Mass,Approved
+c00448,William,Parsons,1948-01-17,william.parsons448@example.com,547 Sanchez Islands Suite 379,Portland,OR,68166,2020-06-30,Mass,Approved
+c00449,Maria,Ellis,1948-02-11,maria.ellis449@example.com,20970 Emily Loop Suite 681,Minneapolis,MN,80034,2020-02-29,Mass,Approved
+c00450,Amy,Carter,1993-01-20,amy.carter450@example.com,071 Stanton Lane,Atlanta,GA,25476,2021-01-14,Mass,Approved
+c00451,Phyllis,Williams,1996-04-30,phyllis.williams451@example.com,2017 Mayer Mills Apt. 304,San Francisco,CA,85585,2021-03-17,Mass,Approved
+c00452,Julia,Gonzalez,1965-04-17,julia.gonzalez452@example.com,19433 Coffey Camp Suite 793,Seattle,WA,90123,2024-07-23,Mass Affluent,Approved
+c00453,Thomas,Williams,1996-04-14,thomas.williams453@example.com,61498 Jackson Fields,Chicago,IL,18554,2021-05-20,Mass,Approved
+c00454,Jonathon,Mahoney,1943-03-06,jonathon.mahoney454@example.com,92124 Nicole Stream,New York,NY,52296,2022-03-21,Mass Affluent,Approved
+c00455,John,Robertson,1989-03-28,john.robertson455@example.com,08948 Smith Meadow Apt. 566,Detroit,MI,84703,2018-06-17,Mass,Rejected
+c00456,Dana,Hays,1977-07-01,dana.hays456@example.com,87758 Nicole Fork Apt. 468,Chicago,IL,52848,2018-01-31,Mass,Approved
+c00457,Katie,Daniels,2007-08-27,katie.daniels457@example.com,0635 Nicole Valley Apt. 361,Newark,NJ,85642,2019-01-01,Mass,Pending
+c00458,Adrienne,King,1947-04-24,adrienne.king458@example.com,25411 Timothy Valley,Dallas,TX,94198,2024-10-02,Mass,Approved
+c00459,Courtney,Mullins,1996-10-16,courtney.mullins459@example.com,543 Thomas Junctions,San Francisco,CA,52719,2018-04-11,Mass,Approved
+c00460,Joshua,Lee,1991-06-10,joshua.lee460@example.com,8319 Duran Road,Philadelphia,PA,15353,2021-10-31,Mass,Approved
+c00461,Chris,Kelly,1960-08-04,chris.kelly461@example.com,110 Nicholas Vista Apt. 207,Phoenix,AZ,40604,2021-09-03,Mass Affluent,Approved
+c00462,Justin,Norman,2008-04-19,justin.norman462@example.com,9611 Anita Hill,Boston,MA,29366,2017-06-12,Mass,Approved
+c00463,Joseph,Glenn,1970-12-06,joseph.glenn463@example.com,1963 Shawn Mountain Suite 991,Houston,TX,52670,2018-01-25,Mass,Approved
+c00464,Luis,Rivera,1964-01-19,luis.rivera464@example.com,078 Matthews Coves Apt. 091,Chicago,IL,62719,2024-08-05,Mass,Approved
+c00465,Amber,Martinez,1995-11-20,amber.martinez465@example.com,284 Fisher Stream,Newark,NJ,51750,2022-02-15,Mass,Approved
+c00466,Devon,Richardson,1970-03-16,devon.richardson466@example.com,32002 Silva Passage Suite 498,Seattle,WA,27593,2019-01-03,Mass Affluent,Approved
+c00467,Jesse,Preston,2007-12-08,jesse.preston467@example.com,74954 Cordova Path,Philadelphia,PA,37104,2020-09-10,Mass Affluent,Approved
+c00468,Heather,Paul,1993-02-02,heather.paul468@example.com,38806 Gonzalez Flats,Detroit,MI,71157,2022-12-10,Mass,Approved
+c00469,Jasmine,Kline,1956-06-17,jasmine.kline469@example.com,53779 Christian Port,Newark,NJ,12428,2020-10-21,Mass,Approved
+c00470,Caleb,Hughes,1995-06-23,caleb.hughes470@example.com,465 Daniel Wells Apt. 730,Seattle,WA,29268,2018-01-27,Mass,Pending
+c00471,Rick,Beltran,1980-04-29,rick.beltran471@example.com,379 John Street,Phoenix,AZ,90310,2023-03-20,Mass,Approved
+c00472,Amy,Crawford,1964-03-10,amy.crawford472@example.com,636 Margaret Avenue Suite 015,Los Angeles,CA,18924,2019-01-14,Mass Affluent,Approved
+c00473,Robert,Jimenez,1988-09-04,robert.jimenez473@example.com,124 Lee Prairie,Detroit,MI,47327,2019-02-16,Mass Affluent,Approved
+c00474,Jamie,Glass,1983-05-18,jamie.glass474@example.com,03342 Nicole Stravenue Apt. 583,Chicago,IL,28628,2017-12-02,Mass,Approved
+c00475,Robert,Stone,1951-08-20,robert.stone475@example.com,02410 Nicholas Turnpike,Phoenix,AZ,19418,2022-08-15,Mass,Approved
+c00476,Rebecca,Owen,1949-10-25,rebecca.owen476@example.com,3473 Pacheco Shore,Houston,TX,48046,2023-04-11,Mass,Approved
+c00477,Brandy,Acosta,1954-05-25,brandy.acosta477@example.com,961 Drew Curve,San Francisco,CA,56929,2020-08-15,Mass,Approved
+c00478,Heather,Miller,1954-06-02,heather.miller478@example.com,86559 Rowland Gardens,Boston,MA,25852,2020-10-02,Mass,Approved
+c00479,Melissa,Morrison,1944-05-20,melissa.morrison479@example.com,938 Clarke Islands,Houston,TX,17001,2021-09-23,Mass,Pending
+c00480,Kathy,Short,1964-03-15,kathy.short480@example.com,42897 Jessica Tunnel,Boston,MA,22122,2018-10-09,Affluent,Approved
+c00481,Omar,Gardner,1959-06-18,omar.gardner481@example.com,912 Potter Rue Suite 787,Atlanta,GA,68638,2018-08-12,Mass,Approved
+c00482,Adam,Morris,1976-12-25,adam.morris482@example.com,5877 Adams Locks,Seattle,WA,87425,2023-01-14,Mass,Approved
+c00483,Michael,Miller,1962-05-10,michael.miller483@example.com,33736 Kevin Lane,Atlanta,GA,26226,2018-08-23,Mass,Approved
+c00484,Karen,Guerrero,1988-03-22,karen.guerrero484@example.com,4812 Kenneth Path,Houston,TX,38835,2023-02-27,Mass,Approved
+c00485,Melissa,Parker,1960-01-09,melissa.parker485@example.com,90789 Simmons Mountain Suite 657,Detroit,MI,40943,2021-09-28,Mass Affluent,Approved
+c00486,Stephanie,Morrison,1958-07-11,stephanie.morrison486@example.com,6027 Joseph Club Suite 148,Charlotte,NC,42468,2024-10-13,Mass,Approved
+c00487,Robert,Simmons,1998-09-10,robert.simmons487@example.com,3111 Johnson Flats,Atlanta,GA,31987,2022-04-13,Mass Affluent,Approved
+c00488,Julie,Norris,2007-05-12,julie.norris488@example.com,54443 Yesenia Terrace Suite 044,Chicago,IL,14974,2017-05-04,Mass Affluent,Approved
+c00489,Amy,Bell,1986-07-16,amy.bell489@example.com,6907 Michelle Forks Apt. 373,Houston,TX,57264,2021-06-18,Mass,Approved
+c00490,Carrie,Williams,1946-10-28,carrie.williams490@example.com,751 Singleton Meadow Suite 377,Dallas,TX,42163,2019-04-29,Mass,Approved
+c00491,Jeffrey,Berg,2005-10-25,jeffrey.berg491@example.com,2924 Vincent Shoals,San Francisco,CA,40803,2024-02-20,Affluent,Approved
+c00492,Jeffrey,Gomez,1993-10-10,jeffrey.gomez492@example.com,3666 Nguyen Brooks Apt. 225,San Francisco,CA,33832,2019-12-03,Mass,Approved
+c00493,Ryan,Bolton,2002-10-28,ryan.bolton493@example.com,3618 Lopez Coves Suite 974,Houston,TX,93640,2022-01-12,Mass,Approved
+c00494,Anthony,Hill,2007-11-02,anthony.hill494@example.com,18209 Johnson Flat,Houston,TX,64943,2019-01-20,Affluent,Approved
+c00495,Matthew,Whitney,1999-04-22,matthew.whitney495@example.com,4334 Shawn Land,Miami,FL,47682,2017-08-01,Mass Affluent,Approved
+c00496,Erin,Gould,1948-12-22,erin.gould496@example.com,56621 Amanda Neck,Detroit,MI,28485,2020-10-01,Mass,Approved
+c00497,Richard,Jones,1999-03-29,richard.jones497@example.com,3234 Meyers Shores,Philadelphia,PA,82101,2024-03-06,Mass,Approved
+c00498,Frederick,Walsh,1957-04-29,frederick.walsh498@example.com,99493 Hill Avenue Apt. 716,Charlotte,NC,89952,2021-03-12,Mass,Approved
+c00499,Tanner,Cox,1988-09-20,tanner.cox499@example.com,597 Ford Canyon,San Francisco,CA,12908,2024-01-07,Mass Affluent,Approved
+c00500,David,Owen,1996-09-07,david.owen500@example.com,7546 Robert Fall,Minneapolis,MN,93669,2021-05-29,Mass,Approved
+c00501,Cindy,Shelton,1992-02-16,cindy.shelton501@example.com,6291 Hale Cape Apt. 248,Philadelphia,PA,72947,2024-07-06,Mass,Approved
+c00502,Anthony,Cisneros,1986-05-01,anthony.cisneros502@example.com,137 Riddle Plaza Apt. 511,Houston,TX,18984,2019-11-18,Mass,Approved
+c00503,Phillip,Thomas,1973-08-18,phillip.thomas503@example.com,7243 Steven Cliffs Suite 656,Seattle,WA,77784,2022-07-09,Affluent,Approved
+c00504,Anne,Lawson,1979-08-12,anne.lawson504@example.com,0041 Mark Summit,San Francisco,CA,19666,2023-05-23,Mass Affluent,Approved
+c00505,Anthony,Harrington,1958-08-15,anthony.harrington505@example.com,7118 Jennifer Mill Apt. 742,Miami,FL,14577,2024-11-11,Mass,Approved
+c00506,Dawn,Johnson,1968-07-07,dawn.johnson506@example.com,91241 Jackson Skyway,Chicago,IL,20379,2017-11-25,Mass,Approved
+c00507,Derek,Jones,1971-01-31,derek.jones507@example.com,427 Thompson Station,Minneapolis,MN,51384,2018-04-23,Affluent,Approved
+c00508,Steven,Osborne,1983-06-08,steven.osborne508@example.com,837 Mary Valleys,Miami,FL,65761,2018-07-06,Affluent,Approved
+c00509,Brent,Diaz,2000-03-12,brent.diaz509@example.com,4709 Brandon Lane,Charlotte,NC,46659,2024-07-15,Mass,Approved
+c00510,Nicholas,Reyes,1946-09-05,nicholas.reyes510@example.com,53310 Johnson Bridge,Charlotte,NC,20977,2022-03-17,Mass,Approved
+c00511,Jason,Bradley,1975-05-30,jason.bradley511@example.com,13122 Robert Coves Suite 583,San Francisco,CA,27925,2017-03-27,Mass,Pending
+c00512,Mark,Jacobs,1959-04-08,mark.jacobs512@example.com,661 Jason Knolls,Houston,TX,86714,2020-05-17,Mass,Approved
+c00513,Kathleen,Shelton,2004-01-07,kathleen.shelton513@example.com,06506 Stephen Circles Suite 950,Los Angeles,CA,96636,2023-12-22,Mass,Rejected
+c00514,Nicholas,Rush,1965-06-11,nicholas.rush514@example.com,64971 Johnathan Court,San Francisco,CA,77884,2023-11-16,Mass,Pending
+c00515,Karen,Watson,2004-12-18,karen.watson515@example.com,625 Cynthia Spurs Suite 715,Seattle,WA,19307,2022-11-24,Mass,Approved
+c00516,Marie,Hines,1962-08-08,marie.hines516@example.com,976 Wesley Squares,Newark,NJ,83782,2017-03-24,Mass Affluent,Approved
+c00517,Johnny,Berry,1940-07-07,johnny.berry517@example.com,09143 Todd River,San Francisco,CA,72278,2023-08-24,Mass,Approved
+c00518,Christopher,Moreno,1992-12-27,christopher.moreno518@example.com,25743 Nicholas Row,New York,NY,57345,2017-10-13,Mass,Approved
+c00519,Andrew,Sanders,1990-03-04,andrew.sanders519@example.com,97524 Schneider Trace,Detroit,MI,22891,2019-08-01,Mass,Approved
+c00520,Amber,Banks,1990-01-19,amber.banks520@example.com,640 Melanie Isle,Detroit,MI,99700,2017-08-19,Mass,Approved
+c00521,Zoe,Wright,1971-07-10,zoe.wright521@example.com,38033 Boyd Falls Suite 017,Charlotte,NC,49834,2018-05-26,Mass,Approved
+c00522,Michael,Wilson,1985-07-05,michael.wilson522@example.com,02321 Brittany Village,Philadelphia,PA,13975,2022-05-07,Mass,Approved
+c00523,Debra,Fitzgerald,1964-09-15,debra.fitzgerald523@example.com,81674 Jennifer Gardens,New York,NY,28897,2018-05-20,Mass,Approved
+c00524,Kimberly,Porter,1944-08-26,kimberly.porter524@example.com,93449 Faulkner Flats Suite 715,Seattle,WA,46113,2023-08-26,Mass,Approved
+c00525,Denise,Hughes,1976-09-08,denise.hughes525@example.com,2776 Wolf Viaduct Suite 066,Miami,FL,15609,2022-09-04,Mass Affluent,Approved
+c00526,Karen,Hoffman,1955-02-28,karen.hoffman526@example.com,9828 Jonathan Mountain,Atlanta,GA,39154,2023-04-23,Mass,Approved
+c00527,Stefanie,Green,1969-07-25,stefanie.green527@example.com,4689 Jones Dale Suite 323,San Francisco,CA,52156,2023-12-09,Mass Affluent,Approved
+c00528,James,Green,1954-10-02,james.green528@example.com,85766 Waller Landing,New York,NY,95378,2024-04-13,Mass Affluent,Approved
+c00529,Andrew,Griffin,1958-08-10,andrew.griffin529@example.com,4916 Victoria Crossing Suite 923,Seattle,WA,17773,2023-07-03,Mass Affluent,Approved
+c00530,Elijah,Davies,1996-09-03,elijah.davies530@example.com,5875 Debra Manors Apt. 370,Portland,OR,61917,2024-01-16,Mass,Approved
+c00531,David,Mitchell,1963-04-25,david.mitchell531@example.com,024 Blackburn Drive Suite 399,Chicago,IL,92418,2021-12-17,Mass,Approved
+c00532,Elizabeth,Hendricks,1979-08-25,elizabeth.hendricks532@example.com,11669 April Field,New York,NY,82557,2024-06-06,Mass,Approved
+c00533,Anne,Henry,1978-11-05,anne.henry533@example.com,64488 Willis Street Suite 119,Newark,NJ,93244,2024-07-06,Mass,Approved
+c00534,Jeffery,Martinez,1973-05-08,jeffery.martinez534@example.com,43640 Lisa Alley Apt. 168,Atlanta,GA,25330,2017-02-01,Mass,Approved
+c00535,Holly,Farrell,1963-09-21,holly.farrell535@example.com,462 Nicholas Squares Apt. 372,Minneapolis,MN,82120,2024-04-19,Affluent,Approved
+c00536,Katie,Hayes,1986-10-05,katie.hayes536@example.com,9323 Karen Valleys,New York,NY,98077,2024-05-29,Mass,Approved
+c00537,Gary,Roach,1943-08-22,gary.roach537@example.com,6791 Christopher Corner,Chicago,IL,39342,2024-10-05,Mass Affluent,Approved
+c00538,Catherine,Wallace,1947-02-13,catherine.wallace538@example.com,41509 Timothy Spring Apt. 004,New York,NY,54877,2023-12-10,Mass,Approved
+c00539,Julie,Miller,1993-08-26,julie.miller539@example.com,901 Alexa Avenue,Minneapolis,MN,57775,2020-10-12,Mass,Approved
+c00540,Danny,Fleming,1971-08-07,danny.fleming540@example.com,847 Sherman Rapids Suite 555,Philadelphia,PA,54430,2018-05-22,Mass,Approved
+c00541,Lori,Bruce,1948-10-17,lori.bruce541@example.com,56690 Marks Valley Apt. 076,Dallas,TX,36080,2019-02-16,Mass,Approved
+c00542,Tami,Flores,1998-09-01,tami.flores542@example.com,91843 Hayes Spur,New York,NY,97379,2020-05-12,Mass,Approved
+c00543,Daniel,Reed,1970-05-10,daniel.reed543@example.com,630 Smith Lake Apt. 573,New York,NY,96084,2024-04-27,Mass,Approved
+c00544,Anthony,Brown,1940-05-23,anthony.brown544@example.com,9156 Hatfield Walks Apt. 649,Philadelphia,PA,44265,2018-10-23,Mass,Approved
+c00545,Larry,Daniels,2005-06-29,larry.daniels545@example.com,289 David Underpass,Seattle,WA,82476,2024-09-14,Mass,Approved
+c00546,Erica,Vance,1954-02-07,erica.vance546@example.com,8727 Timothy Plains,Philadelphia,PA,45777,2019-12-16,Mass,Approved
+c00547,Susan,York,1987-03-04,susan.york547@example.com,32116 Ethan Islands,Minneapolis,MN,81532,2021-09-23,Affluent,Approved
+c00548,Randy,Joseph,1949-04-26,randy.joseph548@example.com,3471 Sandra Roads Suite 153,Minneapolis,MN,62627,2017-12-13,Mass,Rejected
+c00549,Jennifer,Ho,1984-07-18,jennifer.ho549@example.com,566 Stokes Fork,Detroit,MI,52315,2022-07-18,Mass,Approved
+c00550,Charles,Little,1951-02-27,charles.little550@example.com,41115 Julie Crescent Suite 256,Houston,TX,21524,2019-11-24,Mass,Approved
+c00551,Hannah,Leon,2003-10-10,hannah.leon551@example.com,0983 Whitney Island,San Francisco,CA,68913,2021-06-26,Mass,Approved
+c00552,Courtney,Hicks,1958-12-24,courtney.hicks552@example.com,289 Daniel Branch Suite 524,Charlotte,NC,38897,2020-10-29,Mass,Approved
+c00553,Curtis,Martinez,1984-11-10,curtis.martinez553@example.com,7294 Julie Vista,Los Angeles,CA,29517,2017-06-30,Mass,Approved
+c00554,Kendra,Harris,1957-05-16,kendra.harris554@example.com,548 Joshua Vista,Miami,FL,27388,2019-04-21,Affluent,Approved
+c00555,Melissa,Taylor,1965-08-19,melissa.taylor555@example.com,374 Brown Valleys Suite 233,San Francisco,CA,98368,2021-09-08,Mass,Approved
+c00556,Caroline,Tyler,2001-10-21,caroline.tyler556@example.com,76420 Rogers Springs,Chicago,IL,19295,2021-06-04,Mass,Approved
+c00557,David,Johnson,1951-08-09,david.johnson557@example.com,6618 Campbell Fields Suite 125,Phoenix,AZ,81867,2019-05-15,Mass,Approved
+c00558,Tonya,Spencer,1967-04-19,tonya.spencer558@example.com,472 Scott Orchard,Portland,OR,87953,2022-03-27,Mass,Pending
+c00559,Kimberly,Wood,1961-02-13,kimberly.wood559@example.com,33305 Erika Walks Apt. 662,Phoenix,AZ,12794,2023-08-29,Mass,Approved
+c00560,Michael,Lara,1987-11-29,michael.lara560@example.com,57201 Watkins Drive,Portland,OR,63039,2021-04-06,Mass,Approved
+c00561,Ross,Arnold,1956-04-08,ross.arnold561@example.com,01367 Watts Extensions Suite 176,Chicago,IL,61966,2024-06-15,Mass,Approved
+c00562,Mitchell,Salazar,1984-12-02,mitchell.salazar562@example.com,750 Darryl Crossing Suite 830,Boston,MA,42280,2023-08-24,Mass,Approved
+c00563,William,Miller,1988-03-13,william.miller563@example.com,1926 Cooke Squares Suite 492,Chicago,IL,70004,2021-08-21,Mass Affluent,Approved
+c00564,Matthew,Parker,1940-06-02,matthew.parker564@example.com,1826 Phillip Viaduct,Newark,NJ,46780,2018-08-20,Mass,Approved
+c00565,Melissa,Key,1972-10-08,melissa.key565@example.com,89813 Henry Rapid Apt. 087,Los Angeles,CA,49572,2018-10-03,Mass,Pending
+c00566,Lynn,Higgins,1949-05-15,lynn.higgins566@example.com,02932 Anna Vista Apt. 118,Miami,FL,48836,2022-12-01,Mass,Approved
+c00567,Daniel,Fox,1955-09-23,daniel.fox567@example.com,8260 Kevin Path Suite 872,Charlotte,NC,82060,2021-08-17,Mass,Approved
+c00568,Susan,Hammond,1986-08-02,susan.hammond568@example.com,585 Hailey Shore Apt. 303,Miami,FL,66983,2023-10-10,Mass,Approved
+c00569,Cynthia,Morrow,1940-12-23,cynthia.morrow569@example.com,3298 Brittany Harbors,Phoenix,AZ,44114,2018-12-18,Mass,Approved
+c00570,Maria,Jones,1987-08-25,maria.jones570@example.com,961 Green Run,Minneapolis,MN,93409,2023-01-12,Affluent,Approved
+c00571,Jasmine,Compton,1995-11-29,jasmine.compton571@example.com,7146 Amanda Cliffs,Seattle,WA,82185,2018-08-11,Mass,Approved
+c00572,Ryan,Day,2007-07-17,ryan.day572@example.com,359 Robert Drives Suite 660,Detroit,MI,93950,2018-04-09,Mass,Approved
+c00573,Jessica,Cole,1969-01-24,jessica.cole573@example.com,41818 Jones Route,Charlotte,NC,75745,2019-06-29,Mass Affluent,Approved
+c00574,Tammy,Frazier,1949-05-02,tammy.frazier574@example.com,5423 Smith Lane,Newark,NJ,45234,2022-05-12,Mass Affluent,Approved
+c00575,Joseph,Cooper,1945-03-01,joseph.cooper575@example.com,1128 Chapman Valley,New York,NY,79564,2017-05-20,Mass,Approved
+c00576,Lindsey,Humphrey,1966-05-25,lindsey.humphrey576@example.com,85948 Lawson Causeway Apt. 562,Atlanta,GA,39633,2019-07-08,Mass,Approved
+c00577,Amanda,Deleon,1990-01-14,amanda.deleon577@example.com,889 Woods Crossroad Suite 082,Los Angeles,CA,34383,2019-11-03,Mass,Approved
+c00578,Timothy,Bowman,1947-04-24,timothy.bowman578@example.com,69405 Erika Manor,Minneapolis,MN,50594,2018-02-26,Mass Affluent,Approved
+c00579,Ryan,White,1961-08-27,ryan.white579@example.com,75784 Cisneros Pike Apt. 414,Seattle,WA,97237,2017-12-15,Mass,Approved
+c00580,Jessica,Burch,2000-04-03,jessica.burch580@example.com,1113 Frederick Centers Apt. 487,Philadelphia,PA,61114,2024-05-18,Affluent,Approved
+c00581,Joseph,Reynolds,1949-09-02,joseph.reynolds581@example.com,8277 Richard Ridges,Boston,MA,44532,2017-12-14,Mass,Approved
+c00582,Melissa,Bartlett,1992-12-10,melissa.bartlett582@example.com,068 Sanchez Streets,Seattle,WA,51563,2018-11-20,Mass Affluent,Approved
+c00583,Mariah,Brown,1991-07-25,mariah.brown583@example.com,728 Gregory Lakes,Philadelphia,PA,36209,2023-05-08,Mass,Approved
+c00584,Christopher,Martinez,1949-05-26,christopher.martinez584@example.com,506 Gray Landing,Boston,MA,69287,2022-07-17,Mass,Approved
+c00585,Nicole,Hernandez,2007-11-13,nicole.hernandez585@example.com,3814 Webb Greens,Detroit,MI,41538,2018-12-26,Mass,Approved
+c00586,John,Martin,1950-01-23,john.martin586@example.com,96348 Savannah River,San Francisco,CA,59895,2023-04-09,Mass,Approved
+c00587,Steven,Morris,1976-06-03,steven.morris587@example.com,50975 Gomez Avenue Suite 265,Phoenix,AZ,43283,2021-05-20,Mass,Approved
+c00588,Cheryl,Fletcher,1940-12-03,cheryl.fletcher588@example.com,67318 Robert Oval,New York,NY,38864,2019-06-30,Mass,Approved
+c00589,Nicholas,Reed,1984-07-19,nicholas.reed589@example.com,43765 Diaz Falls,Portland,OR,97321,2019-10-20,Mass,Approved
+c00590,Anthony,Everett,1970-04-10,anthony.everett590@example.com,77225 Smith Ways Apt. 134,Seattle,WA,41115,2017-09-23,Mass,Approved
+c00591,Melissa,Jacobson,1989-06-22,melissa.jacobson591@example.com,66502 Stacy Shores,Los Angeles,CA,16346,2024-02-10,Mass Affluent,Approved
+c00592,Hunter,Singleton,1983-01-21,hunter.singleton592@example.com,67872 Potter Tunnel Suite 862,San Francisco,CA,44073,2022-08-23,Mass Affluent,Approved
+c00593,Jason,King,1950-08-22,jason.king593@example.com,02258 Katrina Freeway,Miami,FL,57892,2017-02-16,Mass,Approved
+c00594,Lauren,Reid,1968-05-05,lauren.reid594@example.com,569 Ryan Highway,Seattle,WA,18517,2020-06-15,Mass,Approved
+c00595,Matthew,Pierce,1987-01-13,matthew.pierce595@example.com,1639 Jessica Ferry Apt. 414,Charlotte,NC,37511,2023-01-05,Mass,Approved
+c00596,Nicole,Martinez,1998-10-28,nicole.martinez596@example.com,637 Jacqueline Parkway,Seattle,WA,24945,2022-09-07,Mass Affluent,Rejected
+c00597,Jacqueline,Turner,1946-03-30,jacqueline.turner597@example.com,92312 Johnson Fields,Detroit,MI,55058,2022-04-16,Mass,Approved
+c00598,Joshua,Ferguson,1947-03-07,joshua.ferguson598@example.com,0931 Omar Pine,Phoenix,AZ,75080,2020-07-27,Mass,Approved
+c00599,Alejandro,Shaw,1991-07-07,alejandro.shaw599@example.com,335 Mendoza Pass Suite 041,Phoenix,AZ,97163,2022-09-23,Affluent,Pending
+c00600,Stacy,Jackson,1980-06-09,stacy.jackson600@example.com,4563 Jacobson Falls Apt. 005,Phoenix,AZ,45018,2020-01-12,Affluent,Approved
+c00601,Christopher,David,1966-06-18,christopher.david601@example.com,7491 Lopez Overpass,Houston,TX,87693,2021-06-10,Mass,Approved
+c00602,Jennifer,Moore,2005-11-06,jennifer.moore602@example.com,4110 Mark Streets Suite 989,Phoenix,AZ,29308,2020-02-14,Mass,Approved
+c00603,Tracy,Hopkins,1961-09-25,tracy.hopkins603@example.com,43961 David Summit Apt. 093,Phoenix,AZ,80244,2023-10-06,Mass,Approved
+c00604,Katherine,Le,1949-11-08,katherine.le604@example.com,711 Turner Mountains,Boston,MA,60640,2020-01-07,Mass Affluent,Approved
+c00605,Hannah,Jacobs,1959-03-08,hannah.jacobs605@example.com,202 Robert Station,Seattle,WA,78235,2017-08-10,Mass,Pending
+c00606,Debbie,Kirby,1946-01-28,debbie.kirby606@example.com,557 Rhonda Cliff Suite 688,Minneapolis,MN,77998,2023-12-03,Mass,Approved
+c00607,Travis,Elliott,1977-12-23,travis.elliott607@example.com,94240 Laura Square,Atlanta,GA,57918,2022-05-20,Mass,Approved
+c00608,Laura,Bryan,1981-02-23,laura.bryan608@example.com,678 Gabriel Terrace,Detroit,MI,33168,2019-06-16,Mass,Approved
+c00609,Christopher,Johnson,1981-08-30,christopher.johnson609@example.com,669 Clark Alley Apt. 939,Seattle,WA,57356,2020-01-25,Mass,Approved
+c00610,Jeffrey,Williams,1993-04-26,jeffrey.williams610@example.com,788 Turner Forges,Seattle,WA,84411,2019-08-10,Mass,Approved
+c00611,Heather,May,1987-04-20,heather.may611@example.com,481 Jeffrey Place Apt. 402,Portland,OR,97359,2020-07-12,Mass Affluent,Approved
+c00612,Kevin,Ray,1998-01-02,kevin.ray612@example.com,40338 Aaron Key Suite 518,Chicago,IL,93475,2019-07-18,Mass Affluent,Approved
+c00613,Bonnie,Curtis,1985-02-12,bonnie.curtis613@example.com,269 Nguyen Centers Apt. 534,Phoenix,AZ,26332,2020-02-17,Mass,Approved
+c00614,Thomas,Wang,1960-11-10,thomas.wang614@example.com,0891 Bautista Glens,Charlotte,NC,63765,2024-05-29,Mass Affluent,Approved
+c00615,Alyssa,Butler,1975-07-22,alyssa.butler615@example.com,3543 Moore Fort,Houston,TX,19413,2018-12-30,Mass,Approved
+c00616,Ronald,Fowler,1974-12-30,ronald.fowler616@example.com,2717 Stephen Via Apt. 397,Houston,TX,70205,2021-06-06,Mass,Approved
+c00617,Julie,Jimenez,1991-03-15,julie.jimenez617@example.com,404 Nicole Viaduct,Charlotte,NC,99310,2024-08-03,Mass,Approved
+c00618,Mark,Burton,1960-06-11,mark.burton618@example.com,931 Charles Gardens Suite 618,Miami,FL,14731,2021-09-24,Mass Affluent,Approved
+c00619,Jacqueline,Roberts,1944-01-22,jacqueline.roberts619@example.com,091 Cruz Creek,New York,NY,69091,2021-07-10,Mass Affluent,Approved
+c00620,Joseph,Frye,2001-05-28,joseph.frye620@example.com,023 Joseph Road,Newark,NJ,95096,2024-04-22,Mass Affluent,Pending
+c00621,John,Webb,2005-04-07,john.webb621@example.com,18513 Timothy Port,Chicago,IL,86246,2017-01-14,Mass Affluent,Approved
+c00622,David,Ballard,1973-12-31,david.ballard622@example.com,45723 Amy Grove Apt. 001,Chicago,IL,45323,2023-03-23,Affluent,Approved
+c00623,James,Cohen,1948-01-06,james.cohen623@example.com,86203 Jeremy Lights Apt. 543,Newark,NJ,19352,2022-05-11,Mass,Approved
+c00624,David,Evans,1974-04-27,david.evans624@example.com,172 Jeffrey Haven Suite 195,Chicago,IL,93151,2021-06-23,Affluent,Approved
+c00625,Amanda,Jones,1980-09-25,amanda.jones625@example.com,1092 Roy Isle,Dallas,TX,92919,2018-05-07,Mass,Approved
+c00626,Kathleen,Brown,1976-04-09,kathleen.brown626@example.com,624 Bailey Cove,Charlotte,NC,62107,2019-01-23,Mass,Approved
+c00627,Jacob,Gonzales,2006-10-31,jacob.gonzales627@example.com,5410 Kimberly Drive Suite 267,Miami,FL,98100,2018-11-02,Mass,Approved
+c00628,Javier,Washington,2007-06-16,javier.washington628@example.com,19642 Marcus Crossroad Apt. 655,Miami,FL,10415,2023-02-08,Mass,Approved
+c00629,Todd,Harris,2003-11-08,todd.harris629@example.com,7695 Leah Shoal Apt. 668,Detroit,MI,65494,2018-03-30,Mass,Approved
+c00630,Jenny,Lawson,1949-04-28,jenny.lawson630@example.com,878 Patrick Prairie Suite 893,Atlanta,GA,13468,2018-05-15,Mass,Approved
+c00631,Tiffany,Edwards,1998-11-19,tiffany.edwards631@example.com,50305 Rosario Creek,Dallas,TX,94212,2021-04-17,Mass,Approved
+c00632,Alicia,Higgins,1978-12-30,alicia.higgins632@example.com,5247 Mary Plaza,Charlotte,NC,71237,2020-08-21,Mass,Pending
+c00633,Justin,Gross,1965-03-12,justin.gross633@example.com,33021 Nicholas Burg Suite 501,Chicago,IL,92208,2024-09-14,Mass Affluent,Approved
+c00634,Craig,Valencia,1986-10-15,craig.valencia634@example.com,9202 Thomas Gardens,Charlotte,NC,60640,2018-12-03,Mass,Approved
+c00635,James,Hester,1992-03-18,james.hester635@example.com,96227 Kaitlin Square,Boston,MA,17493,2017-04-27,Mass,Approved
+c00636,Jeremy,Anderson,2005-04-01,jeremy.anderson636@example.com,6570 Rodriguez Circle Apt. 928,Dallas,TX,12387,2021-03-23,Mass,Approved
+c00637,Harry,Wood,1992-09-24,harry.wood637@example.com,66784 Fletcher Manors,Atlanta,GA,40201,2020-09-05,Mass,Approved
+c00638,Alexis,Hoffman,1941-06-25,alexis.hoffman638@example.com,1862 Richard Centers,Miami,FL,76911,2021-01-04,Mass,Approved
+c00639,Amanda,Flores,1944-12-09,amanda.flores639@example.com,2891 Woods Shoal,Houston,TX,23592,2024-05-04,Mass Affluent,Approved
+c00640,Joshua,Owens,1958-03-05,joshua.owens640@example.com,2056 Joseph Cove Apt. 595,San Francisco,CA,86693,2020-01-18,Mass,Approved
+c00641,Terri,Adams,1943-01-21,terri.adams641@example.com,42811 Carla Throughway,Phoenix,AZ,31553,2019-03-27,Mass Affluent,Approved
+c00642,Angela,Wright,1944-06-16,angela.wright642@example.com,83034 Tiffany Port Apt. 970,Seattle,WA,54677,2017-08-01,Mass Affluent,Approved
+c00643,Heidi,Davis,1994-01-07,heidi.davis643@example.com,1405 Benjamin Parkway,San Francisco,CA,28277,2017-07-27,Mass,Approved
+c00644,David,Roberts,1974-10-18,david.roberts644@example.com,6521 Russell Streets,Detroit,MI,51918,2021-01-25,Mass Affluent,Approved
+c00645,Miranda,Cruz,1983-02-02,miranda.cruz645@example.com,209 Woods Ways,Houston,TX,50695,2017-05-02,Mass,Approved
+c00646,Travis,Gilbert,1974-06-02,travis.gilbert646@example.com,2271 Stephanie Fort,Atlanta,GA,10492,2020-10-10,Mass Affluent,Approved
+c00647,Monique,Wright,1968-08-06,monique.wright647@example.com,228 West Curve,Detroit,MI,61103,2019-11-14,Mass Affluent,Approved
+c00648,Audrey,Grimes,1988-01-26,audrey.grimes648@example.com,5960 Allen Ridge Apt. 297,Detroit,MI,80798,2020-03-10,Mass Affluent,Approved
+c00649,Taylor,Moore,1945-12-14,taylor.moore649@example.com,24817 Shawn Extension,Portland,OR,94264,2017-01-06,Mass,Approved
+c00650,Scott,Murphy,1976-10-31,scott.murphy650@example.com,14955 Charles Station Suite 474,Portland,OR,39764,2019-02-08,Mass Affluent,Approved
+c00651,Jack,Lane,1982-03-28,jack.lane651@example.com,219 Williams Walks Suite 669,Chicago,IL,89252,2024-01-16,Affluent,Approved
+c00652,Brett,Edwards,1959-03-20,brett.edwards652@example.com,5895 Miller Loop,Houston,TX,89088,2024-06-05,Mass,Approved
+c00653,Shelley,Hines,1961-06-03,shelley.hines653@example.com,0903 Eric Cove Suite 629,Atlanta,GA,98954,2021-09-22,Mass Affluent,Approved
+c00654,Tim,Jimenez,1975-02-12,tim.jimenez654@example.com,36715 Mcdonald Place Suite 112,Los Angeles,CA,43575,2020-11-17,Mass Affluent,Approved
+c00655,Lynn,Robertson,1954-03-01,lynn.robertson655@example.com,6365 Logan Rapids,Chicago,IL,86580,2019-08-28,Mass,Approved
+c00656,Richard,Jimenez,1995-04-18,richard.jimenez656@example.com,71470 Stacy Drive Apt. 590,Chicago,IL,60857,2021-02-24,Affluent,Approved
+c00657,Charles,Parker,1976-10-27,charles.parker657@example.com,56730 Miranda Trace Suite 442,Phoenix,AZ,15244,2020-11-20,Mass,Approved
+c00658,Crystal,Johnson,1966-12-01,crystal.johnson658@example.com,14614 Savage Pine,Phoenix,AZ,34330,2017-08-19,Mass,Approved
+c00659,Brian,Landry,1983-06-24,brian.landry659@example.com,420 Patty Meadow,Newark,NJ,70484,2022-04-29,Mass,Approved
+c00660,Edward,Wagner,1997-02-04,edward.wagner660@example.com,2356 Alvarez Spurs Apt. 659,Atlanta,GA,24452,2021-01-20,Mass,Approved
+c00661,Anna,Levy,1986-08-29,anna.levy661@example.com,89319 Mario View Suite 027,Philadelphia,PA,49125,2020-07-18,Mass Affluent,Approved
+c00662,Kevin,Lewis,1944-11-04,kevin.lewis662@example.com,5164 Vanessa Village,Dallas,TX,79741,2021-04-04,Mass,Approved
+c00663,Victoria,Gomez,1987-11-10,victoria.gomez663@example.com,791 Jeffery Field,New York,NY,23478,2017-04-06,Mass,Approved
+c00664,David,Williams,1989-12-25,david.williams664@example.com,829 Robinson Fords Apt. 905,Miami,FL,54693,2017-04-23,Mass,Approved
+c00665,Kathy,Simpson,1997-11-27,kathy.simpson665@example.com,44817 Gutierrez Knoll Suite 868,Detroit,MI,29337,2020-11-24,Mass,Approved
+c00666,Catherine,Khan,1944-04-14,catherine.khan666@example.com,27652 Amy Light Suite 649,Dallas,TX,58283,2021-05-26,Mass Affluent,Approved
+c00667,Krystal,Pena,1946-03-18,krystal.pena667@example.com,11096 Tyler Terrace,Minneapolis,MN,31664,2020-04-17,Mass Affluent,Approved
+c00668,Jeremiah,Ruiz,1969-11-22,jeremiah.ruiz668@example.com,789 Elizabeth Walk,Los Angeles,CA,96887,2023-07-22,Mass,Approved
+c00669,Alexandra,Herrera,1971-03-06,alexandra.herrera669@example.com,37861 Melissa Crossing Suite 766,Los Angeles,CA,16903,2021-08-06,Mass,Approved
+c00670,Shannon,Boone,1981-09-30,shannon.boone670@example.com,3844 Parker Underpass,Philadelphia,PA,96722,2023-04-08,Mass,Approved
+c00671,Scott,Jordan,1961-05-18,scott.jordan671@example.com,306 Alexis Drives Suite 895,Portland,OR,81268,2023-11-07,Mass,Approved
+c00672,Michelle,Khan,1990-10-13,michelle.khan672@example.com,96386 Christina Lock Apt. 962,Dallas,TX,87007,2024-03-29,Mass,Approved
+c00673,Veronica,Luna,1990-09-17,veronica.luna673@example.com,265 Samuel Courts Apt. 819,Houston,TX,86635,2020-04-22,Mass,Approved
+c00674,Kevin,Gallagher,1948-06-20,kevin.gallagher674@example.com,482 Harris Course Apt. 609,Newark,NJ,26884,2024-12-30,Mass,Approved
+c00675,Christine,Diaz,1988-06-26,christine.diaz675@example.com,98196 Julia Curve,Phoenix,AZ,93798,2019-11-02,Mass,Approved
+c00676,Chelsea,Morales,1988-01-19,chelsea.morales676@example.com,523 Kenneth Plain Apt. 640,Phoenix,AZ,63484,2021-07-19,Mass,Approved
+c00677,Jody,Hudson,1951-06-28,jody.hudson677@example.com,20911 Ho Crossing Apt. 244,Chicago,IL,96594,2022-01-26,Mass,Approved
+c00678,Stacey,Lee,2005-02-25,stacey.lee678@example.com,17536 Travis Brooks,Boston,MA,89033,2018-11-07,Mass Affluent,Approved
+c00679,Jared,Tran,1975-11-29,jared.tran679@example.com,71366 Schultz Mission Apt. 240,Minneapolis,MN,62164,2020-09-10,Mass Affluent,Approved
+c00680,Jason,Jones,1993-08-04,jason.jones680@example.com,990 Theresa Key,Los Angeles,CA,43701,2019-02-20,Mass,Approved
+c00681,Donna,Gordon,1989-05-11,donna.gordon681@example.com,980 Aimee Glens Apt. 390,Phoenix,AZ,20555,2019-05-01,Mass Affluent,Approved
+c00682,Eric,Duran,1951-09-13,eric.duran682@example.com,823 Wilson Forge,New York,NY,19099,2024-09-29,Mass Affluent,Approved
+c00683,Glenn,Ramirez,1948-12-23,glenn.ramirez683@example.com,2312 Hill Flats,Seattle,WA,45073,2023-04-12,Mass,Approved
+c00684,Charles,Hays,1993-06-18,charles.hays684@example.com,8477 Hunt Locks,Portland,OR,82986,2020-06-11,Mass,Approved
+c00685,Aaron,Becker,1958-08-16,aaron.becker685@example.com,2346 Brandy Trafficway,Boston,MA,55480,2017-03-15,Mass,Approved
+c00686,Shannon,Wilson,2000-08-15,shannon.wilson686@example.com,37676 Cabrera Road Apt. 966,Los Angeles,CA,53358,2023-10-08,Mass Affluent,Approved
+c00687,Brittney,Hester,1992-10-21,brittney.hester687@example.com,551 Jackson Bypass,Detroit,MI,32000,2024-02-27,Mass,Approved
+c00688,Kelly,Long,1942-05-06,kelly.long688@example.com,649 Sanders Crescent Apt. 562,Detroit,MI,60795,2017-06-24,Mass,Pending
+c00689,Jesse,Norton,1995-03-26,jesse.norton689@example.com,13552 Martinez Island Apt. 537,Minneapolis,MN,67426,2017-04-09,Mass,Approved
+c00690,Jasmine,Morgan,1958-11-04,jasmine.morgan690@example.com,81649 Alison Cove Suite 919,Houston,TX,98392,2023-08-31,Mass,Approved
+c00691,Jacqueline,Mcmillan,1944-09-09,jacqueline.mcmillan691@example.com,655 James Unions Suite 704,Portland,OR,75647,2021-10-16,Affluent,Approved
+c00692,Shawn,Fischer,1988-10-13,shawn.fischer692@example.com,17295 Young Brooks Suite 090,Phoenix,AZ,64649,2019-12-29,Mass,Approved
+c00693,Grace,Gonzalez,1979-07-24,grace.gonzalez693@example.com,2608 Matthew Brook Apt. 716,Los Angeles,CA,91906,2023-06-10,Mass Affluent,Approved
+c00694,Sandra,Hicks,1945-08-03,sandra.hicks694@example.com,5561 Snyder Causeway Suite 477,San Francisco,CA,48248,2022-05-24,Affluent,Approved
+c00695,Kristin,Porter,1971-04-20,kristin.porter695@example.com,9103 Margaret Dam,New York,NY,94145,2021-11-03,Mass Affluent,Approved
+c00696,Colleen,Williams,1964-11-01,colleen.williams696@example.com,6321 Jennifer Valleys,Charlotte,NC,43298,2019-11-15,Mass,Approved
+c00697,Donna,Taylor,1974-04-27,donna.taylor697@example.com,004 Daniel Hollow Apt. 459,Dallas,TX,21500,2022-07-16,Mass Affluent,Approved
+c00698,Sarah,Cook,1978-11-23,sarah.cook698@example.com,2297 David Wall Apt. 967,Chicago,IL,47585,2021-09-15,Mass,Approved
+c00699,Ronald,Wells,1965-05-08,ronald.wells699@example.com,839 Stanley Harbors,Boston,MA,21588,2022-09-08,Mass,Approved
+c00700,Amy,Bryant,1957-09-11,amy.bryant700@example.com,731 Miranda Station Apt. 583,Newark,NJ,20655,2018-12-05,Mass Affluent,Approved
+c00701,Deborah,Obrien,1947-05-06,deborah.obrien701@example.com,117 Jason Skyway,Chicago,IL,89308,2023-10-12,Mass,Approved
+c00702,Rebekah,Robertson,1979-05-17,rebekah.robertson702@example.com,6371 Clark Ramp,Houston,TX,81527,2023-02-27,Mass,Approved
+c00703,Margaret,Murphy,1989-06-30,margaret.murphy703@example.com,7281 Jeffery Lakes Suite 798,Philadelphia,PA,29909,2023-01-02,Mass,Approved
+c00704,Charles,Austin,1955-11-17,charles.austin704@example.com,3146 Gina Ways,New York,NY,85394,2017-10-05,Mass Affluent,Approved
+c00705,Gabriel,Martin,1974-12-12,gabriel.martin705@example.com,71130 Lopez Burgs,Newark,NJ,16201,2017-06-14,Mass Affluent,Approved
+c00706,Kyle,Ewing,1943-05-05,kyle.ewing706@example.com,875 Wilson Plaza Apt. 563,Minneapolis,MN,35595,2021-01-01,Mass,Approved
+c00707,Kaitlyn,Stevenson,1999-01-10,kaitlyn.stevenson707@example.com,8685 Scott Land,Newark,NJ,73549,2023-10-02,Mass Affluent,Approved
+c00708,Ashley,Evans,1956-12-22,ashley.evans708@example.com,66343 Thompson Harbor,Minneapolis,MN,37341,2018-12-16,Mass,Approved
+c00709,Keith,Rogers,1972-06-05,keith.rogers709@example.com,610 Susan Forges Apt. 009,Chicago,IL,75745,2021-01-25,Mass,Approved
+c00710,David,Clayton,1966-05-23,david.clayton710@example.com,18143 Myers Courts Apt. 473,Chicago,IL,88690,2018-03-17,Mass,Approved
+c00711,Haley,Patel,1950-07-21,haley.patel711@example.com,54940 Jackson Squares,Dallas,TX,15945,2022-02-14,Affluent,Approved
+c00712,Holly,Erickson,2003-09-01,holly.erickson712@example.com,432 Maldonado Expressway Apt. 572,Detroit,MI,12157,2017-01-06,Mass,Approved
+c00713,Sherri,Evans,1998-08-28,sherri.evans713@example.com,765 Gregory Greens,Phoenix,AZ,94600,2018-07-20,Mass,Rejected
+c00714,Vincent,Cabrera,1977-12-10,vincent.cabrera714@example.com,09579 Tracy Gateway,Phoenix,AZ,56841,2023-03-19,Mass,Approved
+c00715,Troy,Richardson,2002-06-30,troy.richardson715@example.com,00943 Kari Trail Apt. 145,Los Angeles,CA,55582,2019-03-15,Mass Affluent,Approved
+c00716,Christopher,Nunez,1990-09-17,christopher.nunez716@example.com,5847 Diaz Bridge Suite 458,Phoenix,AZ,51730,2022-09-16,Mass,Approved
+c00717,Bill,Whitney,1968-11-11,bill.whitney717@example.com,48026 Donna Divide Suite 703,Detroit,MI,49025,2022-03-16,Mass,Approved
+c00718,Ryan,Silva,1962-03-25,ryan.silva718@example.com,3136 Tammy Wells Suite 824,Detroit,MI,72111,2022-12-31,Affluent,Approved
+c00719,Marcus,Robles,1968-08-26,marcus.robles719@example.com,6964 Lee Prairie Suite 916,Miami,FL,62177,2019-07-19,Mass,Pending
+c00720,John,Swanson,1989-04-29,john.swanson720@example.com,541 Victor Spur Apt. 728,Detroit,MI,24705,2022-11-25,Mass,Approved
+c00721,Christopher,Watts,1958-10-17,christopher.watts721@example.com,824 Roberts Union Suite 070,New York,NY,66397,2019-11-23,Mass,Approved
+c00722,Suzanne,Johnson,1945-08-23,suzanne.johnson722@example.com,9107 Smith Knoll,Los Angeles,CA,70149,2020-05-06,Mass Affluent,Approved
+c00723,Mary,Wells,1965-09-12,mary.wells723@example.com,42548 Stephanie Station,Los Angeles,CA,20224,2018-12-31,Mass,Approved
+c00724,Barbara,Coffey,1974-06-27,barbara.coffey724@example.com,36914 Antonio Knoll Apt. 666,Philadelphia,PA,43906,2017-01-21,Mass,Approved
+c00725,Stephanie,Patton,2001-09-05,stephanie.patton725@example.com,4942 Shelton Islands,Dallas,TX,81145,2024-12-06,Mass,Approved
+c00726,Yvonne,Parsons,1952-07-17,yvonne.parsons726@example.com,342 Spencer Hollow,Newark,NJ,65684,2017-01-31,Mass Affluent,Approved
+c00727,Emily,Lane,1995-01-16,emily.lane727@example.com,49782 Patton Village Suite 128,Phoenix,AZ,22273,2024-02-16,Mass Affluent,Pending
+c00728,Joseph,Griffith,2007-01-31,joseph.griffith728@example.com,585 Gomez Mountain Suite 670,Philadelphia,PA,13608,2020-10-15,Mass,Approved
+c00729,Billy,Silva,2005-03-23,billy.silva729@example.com,1294 Betty Landing,Detroit,MI,62309,2022-04-11,Mass,Approved
+c00730,Katelyn,Jackson,1945-01-12,katelyn.jackson730@example.com,894 Karina Lock,Houston,TX,51555,2019-11-23,Mass Affluent,Approved
+c00731,Thomas,Fuller,1971-12-22,thomas.fuller731@example.com,0787 Christopher Groves,Phoenix,AZ,96494,2019-03-26,Mass,Pending
+c00732,Denise,Harvey,1959-07-18,denise.harvey732@example.com,9149 Vaughn Way,Minneapolis,MN,57002,2018-02-15,Mass,Approved
+c00733,Sabrina,Randall,1997-10-18,sabrina.randall733@example.com,98038 Anna Park,Los Angeles,CA,93833,2021-10-15,Mass,Approved
+c00734,Howard,Hernandez,1962-08-09,howard.hernandez734@example.com,24407 Danny Alley,Phoenix,AZ,29289,2017-07-17,Mass,Approved
+c00735,Brenda,Becker,1977-12-16,brenda.becker735@example.com,181 James Mountains,Charlotte,NC,50260,2022-06-04,Mass,Approved
+c00736,Cynthia,Johnson,1940-11-20,cynthia.johnson736@example.com,760 Kevin Orchard,Phoenix,AZ,22566,2023-05-16,Mass,Pending
+c00737,Travis,Vaughan,1953-12-29,travis.vaughan737@example.com,84979 Ryan Roads,Dallas,TX,61680,2021-12-20,Mass,Approved
+c00738,Christopher,Rodriguez,1978-09-08,christopher.rodriguez738@example.com,23288 Thomas Highway,Atlanta,GA,26962,2020-10-10,Mass,Approved
+c00739,Michael,Smith,1961-01-05,michael.smith739@example.com,197 Contreras Lock Suite 176,Houston,TX,54303,2019-08-29,Mass Affluent,Approved
+c00740,Mathew,Edwards,1982-09-10,mathew.edwards740@example.com,04719 Smith Hollow Apt. 970,Seattle,WA,40972,2018-05-06,Mass,Approved
+c00741,Elizabeth,Hernandez,1971-11-23,elizabeth.hernandez741@example.com,77402 Mason Wall Apt. 586,San Francisco,CA,26715,2023-03-16,Mass,Approved
+c00742,Mia,Vaughn,1980-07-31,mia.vaughn742@example.com,25957 Joshua Track,Phoenix,AZ,18712,2022-07-30,Mass Affluent,Approved
+c00743,Mark,Jenkins,1973-11-23,mark.jenkins743@example.com,1767 Barbara Parkways Suite 259,Dallas,TX,56084,2017-07-01,Mass,Approved
+c00744,Heather,Hampton,1992-11-19,heather.hampton744@example.com,961 Anthony Street Apt. 311,Atlanta,GA,95258,2021-06-26,Mass Affluent,Approved
+c00745,Keith,Knapp,1953-08-20,keith.knapp745@example.com,753 Daniel Extensions Suite 610,Houston,TX,27887,2023-01-26,Mass,Approved
+c00746,Sierra,Salas,2001-07-30,sierra.salas746@example.com,01759 Sandra Islands Apt. 762,Charlotte,NC,46449,2017-02-13,Mass Affluent,Approved
+c00747,Lisa,Fitzgerald,1992-01-23,lisa.fitzgerald747@example.com,47743 Judy Mews,Minneapolis,MN,30214,2021-05-31,Mass,Approved
+c00748,Andrea,Brown,1957-01-06,andrea.brown748@example.com,90130 Patricia Lake,Miami,FL,82807,2017-02-15,Mass,Approved
+c00749,Shawn,Taylor,1940-10-12,shawn.taylor749@example.com,815 Faith Stream Suite 339,Charlotte,NC,47341,2017-08-26,Mass,Approved
+c00750,Leonard,Clark,1968-03-25,leonard.clark750@example.com,559 Laurie Mill Suite 619,Philadelphia,PA,97697,2017-10-04,Mass,Approved
+c00751,Marcus,Nguyen,1956-03-10,marcus.nguyen751@example.com,84117 Brett Plains,Portland,OR,32065,2020-05-08,Mass,Approved
+c00752,Tara,Bates,1963-11-27,tara.bates752@example.com,34465 Monique Estate Suite 189,Newark,NJ,17266,2018-08-14,Mass Affluent,Approved
+c00753,Richard,Fox,1997-06-09,richard.fox753@example.com,984 Montgomery Plains,Philadelphia,PA,62426,2017-04-28,Mass Affluent,Approved
+c00754,Xavier,Edwards,1999-12-30,xavier.edwards754@example.com,740 Matthew Green,San Francisco,CA,68650,2022-11-07,Mass,Approved
+c00755,Vanessa,Thompson,2005-01-05,vanessa.thompson755@example.com,0238 Glass Shore,Detroit,MI,99166,2024-09-12,Mass Affluent,Approved
+c00756,Diane,Barr,1940-06-12,diane.barr756@example.com,71990 Zavala Mall,Chicago,IL,88426,2022-06-09,Mass Affluent,Approved
+c00757,Amy,Peterson,1985-01-16,amy.peterson757@example.com,724 Dalton Parks,Dallas,TX,89575,2019-11-29,Mass Affluent,Approved
+c00758,Robert,Gomez,1998-01-29,robert.gomez758@example.com,567 Harrington Wells,Miami,FL,67081,2020-08-16,Mass,Approved
+c00759,Jacob,Ingram,1989-10-18,jacob.ingram759@example.com,00389 Fleming Street,Philadelphia,PA,42383,2024-05-10,Mass,Pending
+c00760,Michael,Le,1947-06-01,michael.le760@example.com,706 Dominguez Meadows,Dallas,TX,48612,2020-07-08,Mass,Approved
+c00761,Katherine,Schneider,1976-05-17,katherine.schneider761@example.com,217 Penny Land Suite 356,Boston,MA,22037,2023-08-10,Mass,Rejected
+c00762,Colleen,Steele,1956-07-17,colleen.steele762@example.com,31903 Burgess Valley,Detroit,MI,48796,2020-12-16,Mass Affluent,Approved
+c00763,Kathleen,Bishop,1973-10-21,kathleen.bishop763@example.com,30102 White Cape,Seattle,WA,42799,2020-05-25,Mass,Approved
+c00764,James,Lee,1944-06-02,james.lee764@example.com,9342 Mendoza Crossing Apt. 148,Los Angeles,CA,13230,2019-11-29,Mass,Approved
+c00765,Andrea,Wright,2008-02-21,andrea.wright765@example.com,5374 Deleon Highway,Miami,FL,28402,2021-09-14,Mass,Approved
+c00766,Sara,Grant,1988-09-27,sara.grant766@example.com,458 Brian Loop,Phoenix,AZ,58114,2021-09-26,Affluent,Approved
+c00767,Samuel,Walker,1946-09-03,samuel.walker767@example.com,1328 Kevin Plaza Apt. 152,Dallas,TX,43240,2019-07-30,Mass,Approved
+c00768,Helen,Dudley,2002-12-29,helen.dudley768@example.com,77107 Joseph Radial,Detroit,MI,99418,2019-01-05,Mass,Approved
+c00769,David,Evans,2001-05-12,david.evans769@example.com,1049 Simpson Wall Suite 670,New York,NY,53067,2018-07-18,Mass Affluent,Approved
+c00770,Teresa,Roberts,1975-09-10,teresa.roberts770@example.com,62680 Johnson Track,Atlanta,GA,96283,2022-05-03,Affluent,Approved
+c00771,Chelsea,Clark,1988-01-02,chelsea.clark771@example.com,95493 Matthew Village Suite 601,Dallas,TX,69464,2021-08-11,Mass,Pending
+c00772,John,Bush,1965-09-04,john.bush772@example.com,487 Armstrong Port Suite 267,San Francisco,CA,13635,2022-05-11,Mass Affluent,Pending
+c00773,Eric,Stewart,2006-08-14,eric.stewart773@example.com,04413 Morgan Locks,Boston,MA,28310,2020-10-13,Mass Affluent,Approved
+c00774,Andrea,Bailey,1946-02-13,andrea.bailey774@example.com,454 Patton Valleys,Dallas,TX,73521,2023-12-26,Mass,Approved
+c00775,Andrea,Peck,1946-11-05,andrea.peck775@example.com,49542 Ford Mill,Portland,OR,59060,2021-07-25,Mass Affluent,Approved
+c00776,Christopher,Pope,1949-06-05,christopher.pope776@example.com,0578 Ricky Prairie,Seattle,WA,37158,2023-06-29,Mass,Approved
+c00777,Victoria,Hill,1996-02-08,victoria.hill777@example.com,9851 White Trafficway,Chicago,IL,56987,2020-09-29,Mass,Approved
+c00778,Robin,Martinez,1945-06-08,robin.martinez778@example.com,7232 Monica Shoal Apt. 310,New York,NY,91269,2018-03-15,Mass,Approved
+c00779,Steven,Rhodes,1978-12-16,steven.rhodes779@example.com,879 Williams Stravenue,Atlanta,GA,44983,2017-02-14,Mass,Approved
+c00780,David,James,1969-12-04,david.james780@example.com,44058 Caroline Keys,Los Angeles,CA,14060,2021-06-07,Mass,Pending
+c00781,Marilyn,Baird,2005-11-30,marilyn.baird781@example.com,87181 James Ports,Seattle,WA,37986,2024-07-20,Mass,Approved
+c00782,Tyrone,Cardenas,1956-06-12,tyrone.cardenas782@example.com,616 Thomas Islands Suite 565,Dallas,TX,94228,2023-03-07,Mass,Approved
+c00783,Jennifer,Blevins,1958-02-04,jennifer.blevins783@example.com,9025 Kelly Drive Apt. 193,New York,NY,78559,2024-02-29,Mass,Pending
+c00784,William,Ballard,1961-10-07,william.ballard784@example.com,895 Nicholas Prairie Apt. 261,Newark,NJ,85372,2018-12-06,Mass,Approved
+c00785,Joshua,Roberts,1994-10-20,joshua.roberts785@example.com,98986 Melanie Pines,Minneapolis,MN,92044,2017-02-16,Mass,Approved
+c00786,Mary,Roberts,1987-12-30,mary.roberts786@example.com,788 Stewart Fields,Chicago,IL,20575,2020-07-28,Mass,Pending
+c00787,Tina,Klein,1990-05-08,tina.klein787@example.com,53537 Goodman Crescent Apt. 765,New York,NY,35440,2023-08-03,Mass,Pending
+c00788,John,Reed,1961-12-22,john.reed788@example.com,8815 Jacobs Mission,Houston,TX,15384,2024-10-31,Mass,Approved
+c00789,Andrea,Ramos,1958-11-03,andrea.ramos789@example.com,92836 Catherine Underpass Suite 551,Detroit,MI,10426,2017-03-13,Affluent,Approved
+c00790,Patrick,Scott,1945-06-05,patrick.scott790@example.com,6829 Chen Trail,Newark,NJ,85123,2022-06-22,Mass,Approved
+c00791,Sandra,Mendoza,1954-02-17,sandra.mendoza791@example.com,70216 Cannon Station,Philadelphia,PA,94325,2024-02-08,Mass Affluent,Approved
+c00792,William,Harris,1993-05-20,william.harris792@example.com,120 Johnson Expressway Apt. 288,Minneapolis,MN,24018,2023-08-03,Mass,Approved
+c00793,Natasha,Ryan,1980-02-09,natasha.ryan793@example.com,5268 Jennifer Crest Suite 599,Dallas,TX,74995,2022-12-17,Mass Affluent,Approved
+c00794,Michelle,Fitzpatrick,1950-11-30,michelle.fitzpatrick794@example.com,015 Lozano Roads,San Francisco,CA,58140,2019-10-04,Affluent,Approved
+c00795,Joshua,Horton,1951-07-11,joshua.horton795@example.com,647 Jessica Stream Apt. 209,Detroit,MI,16230,2017-11-14,Mass Affluent,Approved
+c00796,Kristy,Taylor,1972-01-15,kristy.taylor796@example.com,765 Thompson Stravenue Suite 134,Atlanta,GA,92417,2022-10-20,Mass,Approved
+c00797,Robert,Gilbert,1967-12-28,robert.gilbert797@example.com,0988 Mitchell Lights Suite 220,Portland,OR,88411,2019-07-05,Mass,Approved
+c00798,Sarah,Matthews,1976-10-15,sarah.matthews798@example.com,8499 Garcia Haven,Chicago,IL,61070,2024-06-25,Mass,Approved
+c00799,William,Sanchez,2005-12-10,william.sanchez799@example.com,44773 Keith Green,Miami,FL,73709,2024-12-02,Mass,Approved
+c00800,Lori,Santiago,1954-06-20,lori.santiago800@example.com,42138 Anthony Canyon,Detroit,MI,45750,2024-07-24,Mass Affluent,Approved
+c00801,Justin,Schmidt,1961-04-24,justin.schmidt801@example.com,70534 Dennis Pike,New York,NY,81355,2017-08-15,Affluent,Approved
+c00802,Kenneth,Little,1958-05-15,kenneth.little802@example.com,4117 Snyder Corners,Miami,FL,50051,2020-05-08,Mass,Approved
+c00803,Brenda,Williams,1948-07-02,brenda.williams803@example.com,1513 Mark Parkways,Detroit,MI,99025,2018-07-25,Mass,Approved
+c00804,Yolanda,Gutierrez,1951-01-24,yolanda.gutierrez804@example.com,7815 Ryan Squares Suite 380,San Francisco,CA,15680,2024-10-29,Mass,Approved
+c00805,Tracy,Love,1986-12-31,tracy.love805@example.com,29633 Harrison Oval,Houston,TX,25493,2024-10-28,Mass,Approved
+c00806,Edgar,Garcia,1996-07-16,edgar.garcia806@example.com,742 Cynthia Corners,Houston,TX,97187,2018-03-20,Mass,Approved
+c00807,Amanda,Townsend,1987-09-26,amanda.townsend807@example.com,61789 Jennifer Camp,Chicago,IL,35990,2024-03-07,Mass,Approved
+c00808,Michael,Smith,1943-02-02,michael.smith808@example.com,496 Dana Orchard Apt. 434,Boston,MA,37958,2023-10-05,Mass Affluent,Approved
+c00809,Andrea,Pierce,1997-03-10,andrea.pierce809@example.com,6958 Phillips Forges Apt. 467,Atlanta,GA,81214,2020-11-07,Mass,Pending
+c00810,Amy,Hickman,1962-08-21,amy.hickman810@example.com,61275 Michael Locks Apt. 779,Portland,OR,27042,2020-02-25,Mass,Approved
+c00811,Stanley,Russell,1946-07-20,stanley.russell811@example.com,304 Romero Vista Suite 085,New York,NY,56218,2023-03-04,Mass,Approved
+c00812,Marc,Donovan,1957-03-24,marc.donovan812@example.com,566 Coleman Green Apt. 473,Los Angeles,CA,35744,2021-06-12,Mass Affluent,Approved
+c00813,Jacob,Johns,1964-07-15,jacob.johns813@example.com,047 Walker Wells Apt. 831,Phoenix,AZ,27814,2019-08-10,Mass,Approved
+c00814,Heidi,Woods,1975-04-06,heidi.woods814@example.com,98006 Kimberly Isle Suite 810,Miami,FL,96793,2021-06-17,Mass,Approved
+c00815,Ashley,Gonzalez,1986-05-25,ashley.gonzalez815@example.com,8328 Heath Forks,Phoenix,AZ,27990,2021-12-10,Mass,Approved
+c00816,Jesus,Maynard,1958-01-14,jesus.maynard816@example.com,55638 Shelby Camp Apt. 818,Seattle,WA,18485,2024-06-05,Mass,Approved
+c00817,Kimberly,Morris,2007-09-18,kimberly.morris817@example.com,0244 Jerry Trail Apt. 041,New York,NY,70654,2021-05-22,Mass,Approved
+c00818,Bradley,Brewer,1942-06-17,bradley.brewer818@example.com,624 Charles Parkways Suite 008,Boston,MA,88057,2018-08-01,Mass,Approved
+c00819,Julie,Velez,1967-11-05,julie.velez819@example.com,96394 Coleman Summit,Houston,TX,21474,2019-12-28,Mass,Approved
+c00820,Janet,Davis,1971-02-05,janet.davis820@example.com,4731 Costa Ports,San Francisco,CA,73705,2017-11-11,Affluent,Approved
+c00821,Lisa,Andrews,1991-03-21,lisa.andrews821@example.com,4613 Hoffman Orchard Suite 883,Boston,MA,58671,2023-12-29,Mass,Approved
+c00822,Paul,Nichols,1957-05-03,paul.nichols822@example.com,76581 Walker Burg Suite 375,Phoenix,AZ,84701,2024-11-29,Mass,Approved
+c00823,Elizabeth,Sharp,1971-10-07,elizabeth.sharp823@example.com,145 Lisa Corner Apt. 823,Boston,MA,21425,2020-08-14,Mass,Approved
+c00824,Lori,Zuniga,1995-01-05,lori.zuniga824@example.com,312 Jensen Mountains Apt. 074,Phoenix,AZ,97830,2023-07-29,Affluent,Approved
+c00825,Tina,Gentry,1949-11-08,tina.gentry825@example.com,5205 Savage Grove Apt. 878,Phoenix,AZ,65719,2020-04-02,Affluent,Approved
+c00826,Tyler,Thompson,1941-02-27,tyler.thompson826@example.com,3577 Samantha Manors Apt. 620,Newark,NJ,85793,2017-10-10,Mass Affluent,Approved
+c00827,Benjamin,Khan,1996-10-23,benjamin.khan827@example.com,123 Kane Crescent,Houston,TX,42576,2022-04-22,Mass,Approved
+c00828,Wayne,Thompson,2007-03-01,wayne.thompson828@example.com,7287 Kaitlyn Plaza,Portland,OR,94904,2020-08-10,Mass,Approved
+c00829,Brittany,Gillespie,1949-03-27,brittany.gillespie829@example.com,0416 Cortez Springs Suite 859,Los Angeles,CA,66372,2019-07-21,Mass Affluent,Pending
+c00830,Molly,Osborn,1996-05-10,molly.osborn830@example.com,224 Leah Station Suite 894,Newark,NJ,21424,2023-10-20,Mass Affluent,Approved
+c00831,Morgan,Sanders,1965-08-29,morgan.sanders831@example.com,3522 Smith Mall Apt. 271,Miami,FL,93061,2017-10-29,Mass,Approved
+c00832,Scott,Simpson,1983-03-17,scott.simpson832@example.com,3318 Rivera Circle,Charlotte,NC,81620,2023-05-19,Mass,Approved
+c00833,Alicia,Zuniga,1984-03-09,alicia.zuniga833@example.com,215 Michael Bridge Apt. 446,Detroit,MI,37018,2018-07-16,Mass,Approved
+c00834,Stephen,Hayden,1979-12-12,stephen.hayden834@example.com,9648 Chris Drives Apt. 342,New York,NY,59110,2019-09-22,Mass Affluent,Approved
+c00835,Jennifer,Howe,1957-12-12,jennifer.howe835@example.com,128 Rivera Trail Suite 973,San Francisco,CA,44925,2023-11-16,Mass,Approved
+c00836,Robert,Mcdowell,1995-08-13,robert.mcdowell836@example.com,33192 Fred Well,Houston,TX,58914,2019-03-17,Mass,Approved
+c00837,Diana,Smith,1941-10-30,diana.smith837@example.com,1028 Coleman Mountains,Portland,OR,96883,2023-06-07,Mass,Approved
+c00838,Eric,Bradley,1944-09-24,eric.bradley838@example.com,8138 Bennett Lights Suite 548,Boston,MA,90902,2020-03-17,Mass,Approved
+c00839,Terrance,Rodriguez,2001-09-19,terrance.rodriguez839@example.com,193 Sonia Village Suite 268,New York,NY,29398,2017-04-30,Mass,Approved
+c00840,Tanya,Bird,1970-07-02,tanya.bird840@example.com,4186 Thompson Way Suite 756,Los Angeles,CA,97462,2017-05-19,Mass,Approved
+c00841,Matthew,Mitchell,1949-02-07,matthew.mitchell841@example.com,836 White Summit,Miami,FL,49415,2018-01-13,Mass Affluent,Approved
+c00842,Heather,Hays,2001-11-22,heather.hays842@example.com,75830 Murphy Land,Houston,TX,73435,2021-01-19,Mass,Approved
+c00843,Debra,Daniels,1996-09-28,debra.daniels843@example.com,094 Deborah Row Suite 604,Portland,OR,78780,2020-07-12,Mass,Approved
+c00844,Melissa,Snyder,1962-11-22,melissa.snyder844@example.com,090 Osborn Roads Suite 727,Newark,NJ,53464,2022-08-08,Mass,Approved
+c00845,Melissa,Mays,1943-04-02,melissa.mays845@example.com,50922 Christopher Village,Philadelphia,PA,51099,2017-08-21,Mass,Pending
+c00846,Michele,Rosales,1971-09-11,michele.rosales846@example.com,70518 Lucero Fields,Philadelphia,PA,51076,2021-03-09,Mass,Approved
+c00847,Norman,Mcdonald,1951-10-09,norman.mcdonald847@example.com,5295 Shelia Lodge,Boston,MA,87629,2018-10-31,Mass,Approved
+c00848,Levi,Lee,1979-05-16,levi.lee848@example.com,013 Jessica Corner Apt. 704,Philadelphia,PA,44770,2022-02-15,Mass,Approved
+c00849,Jennifer,Rodriguez,1996-03-22,jennifer.rodriguez849@example.com,862 Larry Points,Los Angeles,CA,35193,2019-01-30,Mass Affluent,Approved
+c00850,Katherine,Martin,1967-03-17,katherine.martin850@example.com,57919 Davis Course Apt. 125,Houston,TX,42543,2023-03-17,Mass,Approved
+c00851,Monique,Stevens,1942-05-09,monique.stevens851@example.com,03571 Kyle Springs,Seattle,WA,27539,2019-02-19,Mass,Approved
+c00852,Barry,Scott,1986-10-21,barry.scott852@example.com,240 Mccarthy Fall,San Francisco,CA,45235,2024-08-19,Mass,Approved
+c00853,Casey,Lopez,1952-02-06,casey.lopez853@example.com,95633 Stephenson Fall Suite 474,San Francisco,CA,20267,2024-02-29,Mass Affluent,Approved
+c00854,Crystal,Doyle,1954-12-12,crystal.doyle854@example.com,5955 Gallegos Spur,Atlanta,GA,18077,2022-03-09,Mass,Approved
+c00855,Samantha,Gibbs,1953-01-27,samantha.gibbs855@example.com,96289 Victoria Mews,Atlanta,GA,75146,2021-02-23,Mass Affluent,Approved
+c00856,Wendy,Bradley,1959-05-18,wendy.bradley856@example.com,435 Davis Trail Apt. 437,Portland,OR,16969,2019-04-25,Affluent,Approved
+c00857,Julie,Todd,2000-06-02,julie.todd857@example.com,18272 Willis Landing Suite 905,Miami,FL,61138,2022-02-17,Mass,Approved
+c00858,Ryan,Thompson,1942-09-14,ryan.thompson858@example.com,502 Alvarez Junction,Philadelphia,PA,80188,2024-11-08,Mass,Approved
+c00859,Corey,Chase,1982-06-14,corey.chase859@example.com,54278 Karen Mill,Dallas,TX,75203,2022-05-26,Mass Affluent,Approved
+c00860,Cynthia,Prince,1957-01-22,cynthia.prince860@example.com,966 Flowers Glen Suite 957,Los Angeles,CA,50146,2021-06-28,Mass,Approved
+c00861,Monique,Wilcox,1960-05-31,monique.wilcox861@example.com,0381 Simmons Grove Suite 902,Los Angeles,CA,27426,2020-08-27,Mass,Approved
+c00862,Scott,Robertson,1968-05-12,scott.robertson862@example.com,9839 David Isle,San Francisco,CA,93761,2019-11-08,Mass,Approved
+c00863,Heather,Miller,1977-10-17,heather.miller863@example.com,42576 Steven Shoals,Newark,NJ,85164,2023-01-08,Mass,Approved
+c00864,Rebecca,Caldwell,1944-06-29,rebecca.caldwell864@example.com,24412 Michaela Mews,Dallas,TX,65099,2020-02-14,Mass,Approved
+c00865,Brandon,Lopez,1959-05-16,brandon.lopez865@example.com,328 Smith Estate,Portland,OR,17808,2019-12-14,Mass,Pending
+c00866,Laura,Taylor,1949-09-05,laura.taylor866@example.com,78637 Guerra Squares Apt. 162,Dallas,TX,13165,2018-10-17,Mass,Approved
+c00867,Kelly,Morris,1953-11-28,kelly.morris867@example.com,65469 Ferguson Key Suite 903,Seattle,WA,38369,2020-10-29,Mass,Approved
+c00868,Nicholas,Wright,2000-07-03,nicholas.wright868@example.com,55580 Melendez Rue,Portland,OR,24177,2018-07-10,Mass,Approved
+c00869,Dustin,Green,1976-02-07,dustin.green869@example.com,73034 Davis Lights,Chicago,IL,87432,2023-03-25,Affluent,Approved
+c00870,Amanda,Young,1983-03-29,amanda.young870@example.com,2446 Johnson Manor,Newark,NJ,28523,2019-04-24,Mass,Approved
+c00871,Ashlee,Molina,1994-11-23,ashlee.molina871@example.com,68171 Parks Courts,Chicago,IL,35438,2024-08-20,Mass,Approved
+c00872,Laura,Finley,1994-05-25,laura.finley872@example.com,25298 Parks Branch Suite 660,Atlanta,GA,97816,2024-03-06,Mass,Approved
+c00873,George,Turner,2007-08-17,george.turner873@example.com,4197 Norman Station Suite 851,Philadelphia,PA,83643,2018-02-02,Mass,Approved
+c00874,Christian,Sharp,1993-07-08,christian.sharp874@example.com,8612 Matthew Station,Newark,NJ,29683,2021-03-15,Mass,Approved
+c00875,Monica,Smith,1964-10-07,monica.smith875@example.com,89760 Campbell Crossing Suite 750,Dallas,TX,44518,2020-01-15,Mass,Rejected
+c00876,Christine,Valdez,1977-05-17,christine.valdez876@example.com,6540 White Knolls Suite 075,Chicago,IL,56418,2020-03-06,Mass,Approved
+c00877,John,Schwartz,1973-04-21,john.schwartz877@example.com,091 Dennis Place Suite 321,Chicago,IL,69784,2019-06-13,Mass,Approved
+c00878,Roberta,Brown,2002-05-30,roberta.brown878@example.com,27645 Barker Gardens,Phoenix,AZ,94255,2023-01-14,Mass,Pending
+c00879,Douglas,Wilson,1974-07-05,douglas.wilson879@example.com,15502 Patrick Stream Apt. 546,Minneapolis,MN,88401,2023-07-30,Mass,Approved
+c00880,Steven,Parker,1966-10-04,steven.parker880@example.com,24161 Ashley Hollow Apt. 059,Houston,TX,97947,2024-08-29,Mass,Approved
+c00881,Jonathan,Sullivan,1952-07-29,jonathan.sullivan881@example.com,64248 Cassandra Falls Suite 406,Boston,MA,13658,2018-02-01,Mass,Approved
+c00882,Jonathan,Shaw,1962-01-11,jonathan.shaw882@example.com,62447 Davis Fork,San Francisco,CA,31272,2023-03-20,Mass,Approved
+c00883,Albert,Jacobson,1955-03-29,albert.jacobson883@example.com,531 Chandler Rest,Chicago,IL,60670,2020-05-27,Mass,Approved
+c00884,Linda,Padilla,2001-04-05,linda.padilla884@example.com,695 Alvarez Point Apt. 555,Newark,NJ,14420,2021-05-13,Mass,Approved
+c00885,Rachel,Collins,1993-04-15,rachel.collins885@example.com,2773 Emily Glens Suite 091,Los Angeles,CA,41980,2023-09-14,Mass,Pending
+c00886,Erica,Wilson,1944-05-01,erica.wilson886@example.com,513 Torres Terrace Suite 770,Houston,TX,23824,2021-09-10,Mass,Approved
+c00887,Eric,Hendricks,2007-10-09,eric.hendricks887@example.com,929 Cunningham Mall,Philadelphia,PA,93962,2024-05-03,Mass,Rejected
+c00888,Scott,Phillips,1976-05-07,scott.phillips888@example.com,8736 Nicholas Vista,Boston,MA,15699,2023-08-04,Affluent,Approved
+c00889,Michael,Mendez,1992-06-29,michael.mendez889@example.com,63319 White Estate,New York,NY,23356,2023-11-20,Mass,Pending
+c00890,Briana,Robinson,2008-04-27,briana.robinson890@example.com,653 Lester Harbors Suite 515,Miami,FL,27561,2018-05-30,Mass,Approved
+c00891,Danielle,Anderson,2006-07-30,danielle.anderson891@example.com,67747 Sandra Fall Suite 408,New York,NY,23373,2020-06-19,Mass,Approved
+c00892,Roger,Hernandez,1947-02-27,roger.hernandez892@example.com,2169 Mccann Loop Apt. 093,Houston,TX,61171,2017-08-07,Affluent,Approved
+c00893,John,Adkins,1985-01-05,john.adkins893@example.com,981 Dougherty Islands,Minneapolis,MN,42791,2021-07-07,Mass,Approved
+c00894,Megan,Obrien,1958-06-21,megan.obrien894@example.com,97150 Arnold Way,Los Angeles,CA,92120,2023-05-24,Mass,Approved
+c00895,James,Perry,1995-11-09,james.perry895@example.com,75327 Marcus Hill,Houston,TX,33473,2020-02-19,Affluent,Pending
+c00896,Paul,Dunn,2002-09-20,paul.dunn896@example.com,39773 Fritz Underpass,Phoenix,AZ,58349,2017-07-27,Mass,Approved
+c00897,Timothy,Ruiz,1944-02-24,timothy.ruiz897@example.com,8195 John Stravenue,Detroit,MI,69408,2020-09-28,Affluent,Approved
+c00898,John,Medina,2008-02-07,john.medina898@example.com,06876 Krista Green,Newark,NJ,66339,2024-11-09,Mass,Approved
+c00899,Ashley,Beck,1955-04-08,ashley.beck899@example.com,980 Castillo Stream,Philadelphia,PA,81674,2022-07-29,Mass,Approved
+c00900,Bailey,Robinson,1997-11-28,bailey.robinson900@example.com,6056 Patterson Crossing,Dallas,TX,28168,2017-08-10,Mass,Approved
+c00901,Victoria,Wright,1994-07-27,victoria.wright901@example.com,49125 Douglas Divide,Philadelphia,PA,55671,2020-11-09,Mass,Approved
+c00902,Kenneth,Fischer,1964-06-22,kenneth.fischer902@example.com,3415 Stephen Station,Philadelphia,PA,82052,2017-05-23,Affluent,Approved
+c00903,Tiffany,Marks,1997-05-31,tiffany.marks903@example.com,45475 Lyons Port Suite 902,Charlotte,NC,87671,2020-12-05,Mass,Approved
+c00904,Dominique,Miller,1997-10-27,dominique.miller904@example.com,403 Elliott Station,Seattle,WA,65601,2024-11-26,Affluent,Approved
+c00905,Joshua,Griffin,1952-04-27,joshua.griffin905@example.com,2947 Nunez Drives Apt. 294,Chicago,IL,68670,2018-01-08,Mass,Approved
+c00906,Ashlee,Padilla,1980-08-21,ashlee.padilla906@example.com,3039 Hernandez Bridge Suite 588,Houston,TX,87772,2018-11-25,Mass,Approved
+c00907,Gina,Miller,1995-03-03,gina.miller907@example.com,9252 Mills Lane Suite 287,Chicago,IL,66238,2019-04-14,Affluent,Approved
+c00908,Julie,Elliott,1987-10-14,julie.elliott908@example.com,6015 Kyle Fork,New York,NY,95395,2017-03-31,Mass,Approved
+c00909,Brandon,Brown,2002-07-01,brandon.brown909@example.com,9135 Stevens Route,Atlanta,GA,21483,2023-06-08,Affluent,Approved
+c00910,Catherine,Kelley,1942-04-07,catherine.kelley910@example.com,833 Beck Locks,Newark,NJ,41311,2017-10-04,Mass,Approved
+c00911,Tyler,Wagner,1987-12-26,tyler.wagner911@example.com,8148 Tara Centers,Houston,TX,20096,2023-02-21,Mass Affluent,Approved
+c00912,Rebecca,Armstrong,2004-10-12,rebecca.armstrong912@example.com,833 Robles Falls Apt. 372,Newark,NJ,18152,2017-03-29,Mass,Approved
+c00913,Justin,Hernandez,1978-09-03,justin.hernandez913@example.com,484 Julia Street,Atlanta,GA,52474,2023-06-22,Mass,Approved
+c00914,Lauren,Murphy,1978-08-21,lauren.murphy914@example.com,84033 Brenda Prairie,Portland,OR,30333,2020-08-08,Mass,Approved
+c00915,Catherine,Meyer,1953-02-23,catherine.meyer915@example.com,1805 James Crescent Suite 173,Chicago,IL,46644,2018-09-10,Mass,Approved
+c00916,Michael,Wilson,2007-07-14,michael.wilson916@example.com,939 Evans Branch,Detroit,MI,49405,2024-05-17,Mass,Approved
+c00917,Dana,Harris,2000-04-18,dana.harris917@example.com,73997 Johnathan Lodge Suite 725,Chicago,IL,65883,2024-06-20,Mass,Approved
+c00918,Christine,Aguilar,1973-10-26,christine.aguilar918@example.com,444 Matthew Springs Suite 712,Dallas,TX,95112,2018-03-17,Mass Affluent,Approved
+c00919,Erica,Davis,1961-05-12,erica.davis919@example.com,58772 Cameron Meadows Suite 175,Miami,FL,86444,2024-07-08,Mass,Approved
+c00920,Jennifer,Dixon,1973-09-11,jennifer.dixon920@example.com,13348 Flores Pines,Dallas,TX,44047,2020-02-04,Mass Affluent,Approved
+c00921,Donna,Stokes,1946-06-26,donna.stokes921@example.com,49392 Moore Trafficway Suite 229,San Francisco,CA,39302,2017-07-02,Affluent,Approved
+c00922,Mary,Chavez,1956-03-01,mary.chavez922@example.com,8796 Perez Greens,Detroit,MI,79369,2020-02-01,Mass,Approved
+c00923,Courtney,Palmer,1955-03-24,courtney.palmer923@example.com,5245 Calderon Island Suite 469,Minneapolis,MN,21128,2021-02-26,Mass,Approved
+c00924,Rebecca,Bryant,1976-02-23,rebecca.bryant924@example.com,0606 Brewer Dam Suite 403,Boston,MA,58642,2021-08-31,Mass,Pending
+c00925,Debbie,Brown,1940-05-23,debbie.brown925@example.com,445 Marc Turnpike,Miami,FL,48071,2019-11-25,Mass,Approved
+c00926,Kyle,Ford,2002-10-06,kyle.ford926@example.com,8833 Gates Coves Apt. 325,Seattle,WA,26452,2020-06-06,Mass,Approved
+c00927,Scott,Roman,1954-01-17,scott.roman927@example.com,970 Watts Squares Suite 349,Detroit,MI,65480,2020-12-27,Mass,Approved
+c00928,Bethany,Cummings,1949-03-21,bethany.cummings928@example.com,10548 Kim Haven Apt. 721,Atlanta,GA,38866,2023-10-10,Mass,Approved
+c00929,Jessica,Foster,1989-02-05,jessica.foster929@example.com,622 Andrews Points Apt. 735,Chicago,IL,26703,2019-09-15,Mass,Approved
+c00930,Christopher,Velasquez,2002-10-28,christopher.velasquez930@example.com,840 Kelsey Cliff Suite 573,Minneapolis,MN,68787,2019-02-01,Mass,Approved
+c00931,Kenneth,Reese,1997-10-04,kenneth.reese931@example.com,7375 Gonzalez Squares,Chicago,IL,25677,2019-05-03,Mass,Approved
+c00932,Julie,Lane,1962-05-08,julie.lane932@example.com,9021 Simmons Valley Suite 080,Dallas,TX,70556,2024-05-26,Mass,Approved
+c00933,Gregory,Williams,1941-11-02,gregory.williams933@example.com,96085 Campbell Isle Apt. 191,Charlotte,NC,24588,2019-05-20,Mass,Approved
+c00934,David,Cooper,1980-03-27,david.cooper934@example.com,281 Bishop Field,Phoenix,AZ,49128,2019-03-03,Mass Affluent,Approved
+c00935,Amber,Brown,2002-09-20,amber.brown935@example.com,647 Preston Streets,Chicago,IL,82719,2023-07-15,Mass,Approved
+c00936,Teresa,Mcknight,1993-01-01,teresa.mcknight936@example.com,512 Gibson Tunnel,Seattle,WA,30578,2018-03-19,Mass,Approved
+c00937,Alyssa,Michael,1997-11-28,alyssa.michael937@example.com,69409 Smith Fork Suite 624,Boston,MA,79086,2020-10-24,Mass,Approved
+c00938,Robin,Jones,1998-11-15,robin.jones938@example.com,587 Kayla Ports,Philadelphia,PA,74971,2021-03-23,Mass,Approved
+c00939,Maria,Peck,2005-08-31,maria.peck939@example.com,923 Jamie Falls Apt. 089,Minneapolis,MN,91239,2019-03-23,Mass,Approved
+c00940,Jonathan,Johnson,1965-10-01,jonathan.johnson940@example.com,85155 Dominique Flats,Chicago,IL,25198,2020-12-04,Mass,Approved
+c00941,Makayla,Ortiz,2004-05-25,makayla.ortiz941@example.com,64335 Derrick Mill Apt. 607,Houston,TX,74360,2020-08-24,Affluent,Approved
+c00942,Timothy,Mack,1967-04-01,timothy.mack942@example.com,0776 Jamie Light,Chicago,IL,94300,2022-07-04,Mass,Approved
+c00943,Lindsay,Cannon,1947-03-21,lindsay.cannon943@example.com,28981 Katherine Crest,Portland,OR,78671,2017-08-01,Mass Affluent,Approved
+c00944,Julie,Good,1960-11-12,julie.good944@example.com,955 Lee Course Suite 748,Chicago,IL,26911,2017-04-02,Mass,Approved
+c00945,Matthew,Brewer,1949-08-17,matthew.brewer945@example.com,0066 Nixon Courts,Boston,MA,83994,2023-12-17,Mass,Approved
+c00946,Darius,Fisher,1951-01-21,darius.fisher946@example.com,4164 Yvonne Corner Suite 704,New York,NY,19658,2019-02-21,Mass,Approved
+c00947,Sydney,Haney,2004-11-09,sydney.haney947@example.com,23290 April Dam Suite 009,Seattle,WA,62995,2024-10-24,Mass,Approved
+c00948,Donald,Reyes,1994-03-11,donald.reyes948@example.com,459 Morrow Manor,Newark,NJ,54788,2022-01-19,Mass Affluent,Approved
+c00949,Tammy,Kane,2005-09-02,tammy.kane949@example.com,82251 Anthony Ford,Seattle,WA,57797,2017-03-31,Affluent,Approved
+c00950,Michelle,Knox,1984-06-28,michelle.knox950@example.com,5495 Krista Isle Apt. 702,Atlanta,GA,56759,2023-08-09,Mass Affluent,Approved
+c00951,Jennifer,Bennett,1952-03-11,jennifer.bennett951@example.com,86982 Craig Keys Apt. 161,Newark,NJ,12832,2021-12-27,Mass,Approved
+c00952,Tina,Vega,2006-03-22,tina.vega952@example.com,7687 Melody Valleys,Miami,FL,55737,2023-03-31,Mass Affluent,Pending
+c00953,Tammy,Stanley,1987-07-05,tammy.stanley953@example.com,7742 Douglas Lakes,Houston,TX,94306,2019-03-07,Mass,Pending
+c00954,Linda,Ryan,2003-07-05,linda.ryan954@example.com,7932 Zachary Valley,Detroit,MI,49300,2021-04-17,Mass Affluent,Approved
+c00955,Michael,Valdez,1993-11-11,michael.valdez955@example.com,11649 John Glen,Phoenix,AZ,34922,2020-04-05,Mass,Approved
+c00956,Krystal,Bailey,1955-07-12,krystal.bailey956@example.com,457 Wolf Curve,Dallas,TX,99533,2017-06-19,Mass,Approved
+c00957,Alexander,White,1980-05-24,alexander.white957@example.com,5290 Welch Underpass Apt. 202,Detroit,MI,18909,2020-11-01,Mass,Rejected
+c00958,Amanda,Medina,1952-04-09,amanda.medina958@example.com,26509 Webb Key,Dallas,TX,53765,2019-02-18,Mass,Pending
+c00959,Shawn,Rice,1961-03-18,shawn.rice959@example.com,967 Shawn Greens,Los Angeles,CA,56133,2024-03-21,Mass,Approved
+c00960,Emily,Luna,1987-03-02,emily.luna960@example.com,48552 Peterson Well Suite 871,Chicago,IL,53015,2023-04-13,Mass Affluent,Approved
+c00961,Emily,Walker,1949-01-02,emily.walker961@example.com,415 May Plains Apt. 137,Newark,NJ,92955,2017-06-07,Mass Affluent,Approved
+c00962,Brenda,Smith,1989-11-27,brenda.smith962@example.com,84254 Graham Corner,Minneapolis,MN,47958,2018-02-17,Affluent,Approved
+c00963,Lynn,Johnson,2004-11-12,lynn.johnson963@example.com,8323 James Summit,Seattle,WA,97597,2019-10-02,Mass,Approved
+c00964,Shelby,Evans,2004-11-09,shelby.evans964@example.com,929 Lauren Lake Apt. 825,Charlotte,NC,16014,2021-12-23,Mass,Approved
+c00965,Daniel,Nunez,1966-12-23,daniel.nunez965@example.com,29328 Garrison Harbors,Portland,OR,76054,2023-05-28,Mass,Approved
+c00966,Jesus,Stephens,2007-12-17,jesus.stephens966@example.com,4686 Mcdonald Dale,Minneapolis,MN,63366,2018-03-11,Mass,Approved
+c00967,Angel,Patel,2005-12-24,angel.patel967@example.com,14843 Brian Loop Apt. 272,Dallas,TX,31649,2018-09-21,Mass,Approved
+c00968,Nicole,Morrow,1942-07-20,nicole.morrow968@example.com,2669 John Keys,Miami,FL,30517,2023-01-26,Mass,Approved
+c00969,Anna,Wright,1981-04-23,anna.wright969@example.com,42619 Jamie Divide,Portland,OR,74771,2020-04-14,Mass,Approved
+c00970,Rose,Reed,2002-12-23,rose.reed970@example.com,0184 Kelsey Rapid Suite 374,New York,NY,67384,2020-01-21,Mass,Approved
+c00971,Jeffrey,Hill,2006-02-20,jeffrey.hill971@example.com,972 Nicole Throughway,Charlotte,NC,65005,2021-03-08,Mass,Pending
+c00972,Bryan,Pineda,1955-05-15,bryan.pineda972@example.com,0641 Simmons Extension Suite 438,Minneapolis,MN,14575,2017-08-05,Mass,Approved
+c00973,Madison,Hardy,1978-10-21,madison.hardy973@example.com,99537 Fisher Route,Minneapolis,MN,63809,2024-01-04,Mass,Approved
+c00974,Regina,Rodriguez,2004-01-16,regina.rodriguez974@example.com,4485 Estrada Glen,Detroit,MI,98324,2022-12-09,Affluent,Approved
+c00975,Kevin,Pacheco,1949-11-29,kevin.pacheco975@example.com,01739 Walker Mews Suite 178,Philadelphia,PA,11559,2024-03-29,Mass,Approved
+c00976,Ricky,Barnes,1991-01-12,ricky.barnes976@example.com,860 Brittany Underpass Apt. 911,Atlanta,GA,52210,2019-06-18,Mass Affluent,Approved
+c00977,Donald,Miranda,1956-07-13,donald.miranda977@example.com,9966 Michael Turnpike,Newark,NJ,54493,2019-11-08,Mass,Approved
+c00978,Sophia,Stephenson,2007-02-24,sophia.stephenson978@example.com,9806 Caldwell Burg Apt. 920,Detroit,MI,90707,2017-02-09,Mass Affluent,Approved
+c00979,Kevin,Smith,1951-10-06,kevin.smith979@example.com,46074 Cardenas Key Suite 347,Atlanta,GA,35456,2020-08-31,Mass Affluent,Approved
+c00980,Travis,Harris,2000-07-19,travis.harris980@example.com,7423 Yang Terrace,Minneapolis,MN,52800,2023-10-19,Mass Affluent,Approved
+c00981,Colton,Garcia,1946-05-19,colton.garcia981@example.com,71559 Leslie Inlet Apt. 165,Detroit,MI,74547,2021-05-25,Mass,Approved
+c00982,Paige,Johnson,1988-07-22,paige.johnson982@example.com,263 Chase Oval Suite 575,Dallas,TX,15429,2024-04-17,Mass,Approved
+c00983,Derek,Harper,1983-10-22,derek.harper983@example.com,50139 Stout Squares,Chicago,IL,82098,2019-08-21,Mass,Approved
+c00984,Shawn,Warner,2000-08-21,shawn.warner984@example.com,826 James Course Suite 425,Phoenix,AZ,83999,2019-08-12,Mass,Approved
+c00985,Ellen,Williams,1970-09-19,ellen.williams985@example.com,2614 Mario Fork Suite 038,Detroit,MI,74768,2018-02-22,Mass,Approved
+c00986,Julia,Yang,1958-05-20,julia.yang986@example.com,407 Martha Forges,Phoenix,AZ,68336,2022-04-14,Mass,Approved
+c00987,Sonya,Morales,1957-04-25,sonya.morales987@example.com,73204 Tamara Walks,Phoenix,AZ,77284,2022-07-10,Mass,Approved
+c00988,Robert,Young,1944-12-15,robert.young988@example.com,6889 Robert Vista Suite 964,Atlanta,GA,80358,2024-06-06,Mass,Approved
+c00989,Julia,Robinson,1957-10-19,julia.robinson989@example.com,6553 Fernandez Club Apt. 538,Atlanta,GA,91305,2021-09-06,Mass,Rejected
+c00990,Eric,Shields,1947-09-11,eric.shields990@example.com,87851 Jennifer Stravenue,Phoenix,AZ,48535,2021-03-15,Mass,Rejected
+c00991,Robert,Brown,1940-06-07,robert.brown991@example.com,4907 Crawford Mews,Miami,FL,51045,2018-12-20,Mass Affluent,Pending
+c00992,Corey,Gordon,1966-08-04,corey.gordon992@example.com,08780 Woods Squares,Detroit,MI,67414,2018-12-22,Mass Affluent,Approved
+c00993,Tracy,Roberts,1990-03-01,tracy.roberts993@example.com,51494 Jennifer Overpass,Boston,MA,27378,2023-11-18,Mass,Approved
+c00994,Ricky,Cabrera,2006-03-31,ricky.cabrera994@example.com,263 Collins Square Suite 539,Detroit,MI,87060,2022-09-21,Mass,Approved
+c00995,Stephanie,Dennis,2000-06-30,stephanie.dennis995@example.com,89509 Jennifer Knolls Apt. 191,Minneapolis,MN,79346,2020-11-29,Mass,Approved
+c00996,Antonio,Flores,1973-11-16,antonio.flores996@example.com,233 Mary Burgs Suite 151,Houston,TX,66795,2022-04-28,Mass,Approved
+c00997,Mitchell,Harper,1966-02-06,mitchell.harper997@example.com,9666 Taylor Junctions,Detroit,MI,37148,2024-10-18,Mass,Approved
+c00998,Scott,Chambers,1977-06-23,scott.chambers998@example.com,45264 Davis Green,Charlotte,NC,41290,2018-03-29,Mass,Approved
+c00999,Stephanie,Flores,1947-03-31,stephanie.flores999@example.com,35157 Alexandria Brooks Apt. 805,San Francisco,CA,49147,2019-02-26,Affluent,Approved
+c01000,Melissa,Turner,1972-12-14,melissa.turner1000@example.com,08005 Torres Union,Chicago,IL,69627,2020-11-04,Mass,Approved

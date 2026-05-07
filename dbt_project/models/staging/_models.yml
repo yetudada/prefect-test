@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: One row per customer; minor cleanup over the customers seed.
+    columns:
+      - name: customer_id
+        description: Surrogate primary key.
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_accounts
+    description: One row per account; renames seed.status to account_status.
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_transactions
+    description: One row per transaction. Adds transaction_date, transaction_hour, and a signed_amount helper.
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+      - name: account_id
+        tests:
+          - not_null
+      - name: direction
+        tests:
+          - accepted_values:
+              values: ['debit', 'credit']
+
+  - name: stg_branches
+    columns:
+      - name: branch_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_merchants
+    description: Adds is_foreign boolean derived from country.
+    columns:
+      - name: merchant_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique

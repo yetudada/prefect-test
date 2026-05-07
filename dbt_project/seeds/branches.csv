@@ -1,0 +1,21 @@
+branch_id,region,city,state,opened_date
+b001,Midwest,Chicago,IL,2010-05-20
+b002,Southwest,Phoenix,AZ,2009-12-07
+b003,Midwest,Detroit,MI,2000-02-07
+b004,Northeast,Newark,NJ,1996-08-11
+b005,Midwest,Chicago,IL,1995-04-25
+b006,Northeast,Boston,MA,2006-10-24
+b007,Southeast,Charlotte,NC,2003-09-17
+b008,West,San Francisco,CA,1996-09-04
+b009,Midwest,Minneapolis,MN,1996-12-20
+b010,Midwest,Detroit,MI,1995-01-31
+b011,West,San Francisco,CA,2022-08-26
+b012,Southeast,Atlanta,GA,2023-01-09
+b013,West,San Francisco,CA,2007-03-05
+b014,Southwest,Houston,TX,2020-07-26
+b015,Southeast,Miami,FL,1998-12-21
+b016,Southeast,Charlotte,NC,2001-12-10
+b017,Southeast,Atlanta,GA,2020-05-03
+b018,Midwest,Minneapolis,MN,2020-05-06
+b019,Southwest,Dallas,TX,2020-12-11
+b020,Midwest,Detroit,MI,2014-02-04

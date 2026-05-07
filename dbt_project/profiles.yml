@@ -1,0 +1,7 @@
+banking:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('BANKING_DUCKDB_PATH', '../warehouse.duckdb') }}"
+      threads: 4

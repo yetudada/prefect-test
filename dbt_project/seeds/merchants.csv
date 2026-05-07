@@ -1,0 +1,101 @@
+merchant_id,merchant_name,mcc_code,country
+m001,Butler-Scott,5811,USA
+m002,Morgan-Jones,5814,USA
+m003,Wilson Inc,6010,USA
+m004,Foley-Banks,5092,USA
+m005,"Jones, Nelson and Kemp",5814,USA
+m006,Clark Ltd,6011,USA
+m007,Jones-Russell,6011,USA
+m008,"Brown, Johnson and Flores",5813,USA
+m009,Hampton-Estes,3070,USA
+m010,Jenkins Inc,5811,USA
+m011,Stewart-Hughes,5811,USA
+m012,"Schmidt, Herrera and Chen",5168,USA
+m013,"Patrick, Day and Watkins",6010,USA
+m014,Vasquez LLC,5811,USA
+m015,Bell Ltd,7467,USA
+m016,Wright Ltd,5811,USA
+m017,"Coleman, Clark and Cruz",7148,USA
+m018,Thomas-Gibson,7698,USA
+m019,Castro Inc,5812,ESP
+m020,"Salazar, Johnson and Trevino",5461,USA
+m021,"Mccoy, Ingram and Flores",5454,USA
+m022,White PLC,5423,USA
+m023,Williams-Duffy,6011,USA
+m024,Smith PLC,5437,USA
+m025,"Cox, Ramirez and Gonzales",6010,USA
+m026,Nelson-Allen,3076,USA
+m027,"Stone, Alvarado and Snyder",4511,USA
+m028,Gay PLC,5497,USA
+m029,Richard-Davis,5428,USA
+m030,"Lewis, Brown and Davis",5439,USA
+m031,"Anderson, Myers and Morrison",6011,USA
+m032,Ortega Ltd,5480,USA
+m033,"Griffin, Sweeney and Price",6010,USA
+m034,Reyes-Morales,6011,USA
+m035,Martin-Fox,5811,USA
+m036,Jones PLC,5493,USA
+m037,"Houston, Holt and Young",7011,USA
+m038,Kim-Andrews,5463,USA
+m039,Nielsen-Ryan,5811,USA
+m040,Maldonado PLC,5456,USA
+m041,Dillon Ltd,5473,USA
+m042,Pearson-Matthews,5275,MEX
+m043,Hall PLC,7011,USA
+m044,Woodard Inc,5812,USA
+m045,Miller LLC,5430,USA
+m046,"Delgado, Li and David",5470,USA
+m047,"Roberson, James and Brown",5857,USA
+m048,Carney-Ford,6010,USA
+m049,Knight-Cruz,6011,USA
+m050,Brown-Cox,5296,USA
+m051,"Adams, Monroe and Hernandez",7011,USA
+m052,Robinson-Sullivan,7011,USA
+m053,"Anderson, Jones and Mendez",3247,USA
+m054,"Ortiz, Carpenter and Garcia",7657,USA
+m055,"Herrera, Taylor and Mullins",4511,USA
+m056,Mercer Ltd,4511,USA
+m057,Villegas Ltd,6011,FRA
+m058,Ramirez-Cline,5813,USA
+m059,"Spencer, Waller and Hanson",5811,USA
+m060,"Morgan, Johnston and Mclean",5466,USA
+m061,Perez-Clark,4511,USA
+m062,Ryan Group,5898,USA
+m063,Austin PLC,5467,USA
+m064,Rivera-Bartlett,7192,USA
+m065,"Baker, Nelson and Smith",5812,USA
+m066,Merritt-Martinez,5431,AUS
+m067,"Campbell, Fitzgerald and Glover",7495,USA
+m068,Keller Group,5813,USA
+m069,"Miranda, Allison and Owens",4511,USA
+m070,Miller PLC,5812,USA
+m071,"Eaton, Bailey and Pugh",5442,USA
+m072,Dillon-Frederick,5477,USA
+m073,Gutierrez PLC,5413,MEX
+m074,Walters-Neal,5452,USA
+m075,Lee-Thompson,4511,USA
+m076,Hanson-Johnson,5812,USA
+m077,Garcia and Sons,5437,USA
+m078,"Bullock, Brewer and Warren",6010,USA
+m079,Reed-Diaz,3272,USA
+m080,Griffith-Berry,5811,USA
+m081,Walter PLC,5812,USA
+m082,Williams-Howe,6011,USA
+m083,"Black, Patel and Casey",5430,USA
+m084,Morgan PLC,3183,USA
+m085,Henderson-Thompson,7934,USA
+m086,Norman Ltd,6011,USA
+m087,Brooks-Travis,5813,USA
+m088,Mitchell-Garcia,5793,USA
+m089,Wood-Farmer,5495,USA
+m090,"Griffin, Ramos and Williamson",7011,USA
+m091,"Luna, James and Simpson",5812,USA
+m092,Martinez-Bentley,5489,USA
+m093,Adams-Walton,5496,USA
+m094,Berg and Sons,5811,USA
+m095,"Booth, Blackburn and Fitzpatrick",5445,USA
+m096,Watts Inc,4511,USA
+m097,Allen-West,5421,USA
+m098,Lopez-Dickson,6011,USA
+m099,"Shaw, Ramirez and Simpson",7011,USA
+m100,"Brown, Lopez and Bryan",7830,USA

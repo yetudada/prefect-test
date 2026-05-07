@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: One row per customer; behavioural segment from int_customer_segments.
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_accounts
+    description: One row per account; product and branch attributes flattened in.
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+
+  - name: dim_branches
+    columns:
+      - name: branch_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_merchants
+    columns:
+      - name: merchant_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_transactions
+    description: Grain - one row per transaction.
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+      - name: account_id
+        tests:
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: merchant_id
+        tests:
+          - relationships:
+              to: ref('dim_merchants')
+              field: merchant_id
+
+  - name: fct_daily_balances
+    description: Grain - one row per account per day.
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+      - name: balance_date
+        tests:
+          - not_null

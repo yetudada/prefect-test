@@ -1,0 +1,6 @@
+product_id,product_name,product_type
+p1,Checking,Deposit
+p2,Savings,Deposit
+p3,Money Market,Deposit
+p4,CD,Deposit
+p5,Credit Card,Credit
