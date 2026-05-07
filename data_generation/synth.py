@@ -162,7 +162,10 @@ def generate_accounts(
     total = int(n_per_customer.sum())
 
     customer_ids = np.repeat(customers["customer_id"].to_numpy(), n_per_customer)
-    signups = np.repeat(customers["signup_date"].to_numpy(), n_per_customer)
+    # Normalize to Python `date` so subsequent arithmetic with TODAY works whether
+    # signup_date arrived as a date object (in-memory) or a Timestamp (from CSV).
+    signup_dates_norm = pd.to_datetime(customers["signup_date"]).dt.date.to_numpy()
+    signups = np.repeat(signup_dates_norm, n_per_customer)
 
     product_ids = rng.choice(products["product_id"].to_numpy(), size=total)
     branch_ids = rng.choice(branches["branch_id"].to_numpy(), size=total)

@@ -1,0 +1,24 @@
+# Schedule + work pool define where and when this runs in production. Local
+# `python -m flows.pipeline` bypasses both — that's the dev loop.
+
+name: prefect-banking-pipeline
+prefect-version: 3.7.0
+
+deployments:
+  - name: banking-pipeline-daily
+    entrypoint: flows/pipeline.py:banking_pipeline
+    work_pool:
+      name: banking-process-pool
+      work_queue_name: default
+    schedules:
+      - cron: "0 6 * * *"
+        timezone: UTC
+        active: true
+    parameters:
+      seed: 42
+      n_customers: 1000
+      n_transactions: 50000
+    tags: [banking, daily]
+    description: |
+      Daily synthetic banking pipeline. Generates customers/accounts/transactions,
+      loads to DuckDB via dbt seed, and builds 20 dbt models on top.
