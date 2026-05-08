@@ -40,3 +40,15 @@ deployments:
       Daily synthetic banking pipeline. Generates customers/accounts/transactions,
       loads to DuckDB via dbt seed, and builds 20 dbt models on top.
       DuckDB warehouse is ephemeral — it only exists for the run's container.
+    # Cloud-only. Violations emit events that can be wired into Automations
+    # (Slack/email alerts) on the deployment's SLAs tab.
+    sla:
+      - name: pipeline-completes-within-5-min
+        severity: high
+        duration: 300  # seconds. Typical run takes ~1-3 min; flag overruns.
+      - name: scheduled-run-starts-within-30-min
+        severity: moderate
+        within: 1800  # seconds after the cron tick. Tolerates managed-pool cold start.
+      - name: at-least-one-successful-run-per-day
+        severity: critical
+        stale_after: 90000  # seconds (= 25 hours). Catches missed daily runs.
